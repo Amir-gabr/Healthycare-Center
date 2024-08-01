@@ -63,7 +63,7 @@ export default function About() {
                 <h5 className="ObgTitle px-3 text-center w-fit text-xl text-orange-500 font-bold">
                   About Us
                 </h5>
-                <h3 className="text-4xl text-darkText font-bold leading-10">
+                <h3 className="text-2xl md:text-4xl text-darkText font-bold leading-10">
                   The Great Place Of Medical Hospital Center
                 </h3>
                 <p className="">

@@ -17,7 +17,7 @@ export default function OurWorkS() {
           <h5 className="ObgTitle w-fit px-4 mx-auto text-orange-500 font-bold text-[22px]">
             Working Process
           </h5>
-          <h3 className="mx-auto w-fit text-darkText font-bold text-[46px]">
+          <h3 className="mx-auto w-fit text-darkText font-bold text-2xl md:text-[46px]">
             How we works?
           </h3>
         </div>

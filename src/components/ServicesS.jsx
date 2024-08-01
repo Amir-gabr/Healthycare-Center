@@ -90,7 +90,7 @@ export default function ServicesS() {
           <h5 className="ObgTitle mb-6 w-fit px-4 mx-auto text-orange-500 font-bold text-[22px]">
             Services
           </h5>
-          <h3 className="mx-auto w-4/5 md:w-3/5 lg:w-2/5 text-center text-darkText font-bold text-3xl md:text-[40px]">
+          <h3 className="mx-auto w-4/5 md:w-3/5 lg:w-2/5 text-center text-darkText font-bold text-2xl md:text-[40px]">
             We Cover A Big Variety Of Medical Services
           </h3>
         </div>

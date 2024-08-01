@@ -49,14 +49,14 @@ export default function TestimonialS() {
           <h5 className="ObgTitle mb-6 w-fit px-4 mx-auto text-orange-500 font-bold text-[22px]">
             Testimonial
           </h5>
-          <h3 className="mx-auto w-4/5 md:w-3/5 lg:w-2/5 text-center text-darkText font-bold text-3xl md:text-[46px]">
+          <h3 className="mx-auto w-4/5 md:w-3/5 lg:w-2/5 text-center text-darkText font-bold text-2xl md:text-[46px]">
             See What Are The Patients Saying About us
           </h3>
         </div>
         {/* Testimonial Content */}
         <div className="max-w-screen-xl mx-auto py-10 px-4 md:px-10 grid grid-cols-1 lg:grid-cols-2 gap-10">
-          <div className=" h-[400px] w-[400px] md:h-[470px] md:w-[580px] mx-auto me-3">
-            <div className="testimonialBg relative">
+          <div className=" h-[400px] w-[400px] md:h-[470px] md:w-[580px] mx-auto ms-3">
+            <div className="testimonialBg relative mx-auto">
               <img
                 src={doc1}
                 alt=""
