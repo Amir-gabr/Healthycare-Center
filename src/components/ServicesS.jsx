@@ -11,77 +11,11 @@ import DotsCB from "../assets/imagesAni/DotsCB.png";
 import { Link } from "react-router-dom";
 import { ServicesData } from "../data/data";
 import { IoIosArrowForward } from "react-icons/io";
-import Slider from "react-slick";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 
 export default function ServicesS() {
-  const settings = {
-    dots: false,
-    arrows: false,
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    initialSlide: 0,
-    speed: 500,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          dots: false,
-          arrows: false,
-          infinite: true,
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          initialSlide: 0,
-          speed: 500,
-          // cssEase: "linear",
-          centerMode: true,
-        },
-      },
-      {
-        breakpoint: 900,
-        settings: {
-          dots: false,
-          arrows: false,
-          infinite: true,
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          initialSlide: 0,
-          speed: 500,
-          // cssEase: "linear",
-          centerMode: true,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          dots: false,
-          arrows: false,
-          infinite: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 0,
-          speed: 500,
-          // cssEase: "linear",
-          centerMode: true,
-        },
-      },
 
-      {
-        breakpoint: 480,
-        settings: {
-          dots: false,
-          arrows: false,
-          infinite: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 0,
-          speed: 500,
-          // cssEase: "linear",
-          centerMode: true,
-        },
-      },
-    ],
-  };
   return (
     <>
       <section className="relative h-auto mb-10 ">
@@ -90,19 +24,49 @@ export default function ServicesS() {
           <h5 className="ObgTitle mb-6 w-fit px-4 mx-auto text-orange-500 font-bold text-[22px]">
             Services
           </h5>
-          <h3 className="mx-auto w-4/5 md:w-3/5 lg:w-2/5 text-center text-darkText font-bold text-2xl md:text-[40px]">
+          <h3 className="mx-auto w-4/5 md:w-3/5 lg:w-2/5 text-center text-darkText font-bold text-2xl md:text-[40px] leading-[42px]">
             We Cover A Big Variety Of Medical Services
           </h3>
         </div>
         {/* Latest News Content */}
         <div className="max-w-screen-xl mx-auto py-0 md:py-10 px-4 md:px-10 ">
-          <Slider {...settings}>
+          <Swiper
+            className="py-10"
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+              pauseOnMouseEnter: true,
+            }}
+            loop={true}
+            slidesPerView={1}
+            spaceBetween={2}
+            breakpoints={{
+              640: {
+                slidesPerView: 1,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+              900: {
+                slidesPerView: 2,
+              },
+              1024: {
+                slidesPerView: 3,
+              },
+              1220: {
+                slidesPerView: 3,
+              },
+              1536: {
+                slidesPerView: 4,
+              },
+            }}
+          >
             {ServicesData.map((item, id) => {
               return (
-                <>
+                <SwiperSlide key={id}>
                   <div
-                    key={id}
-                    className="servicesBg group rounded-2xl border px-6 md:px-8 py-4 bg-light m-2 md:m-6"
+                    
+                    className="servicesBg shadow-lg group rounded-2xl border px-6 md:px-8 py-4 bg-light m-2 md:m-6 "
                   >
                     <div className="rounded-xl duration-300 border-2 border-white group-hover:border-darkText w-20 overflow-hidden p-3 bg-primary group-hover:bg-light ">
                       <img
@@ -131,10 +95,10 @@ export default function ServicesS() {
                       </Link>
                     </div>
                   </div>
-                </>
+                </SwiperSlide>
               );
             })}
-          </Slider>
+          </Swiper>
         </div>
 
         {/* animation images */}

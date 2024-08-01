@@ -1,5 +1,6 @@
 //
 //
+// import { useState } from "react";
 // animation images
 import send from "../assets/imagesAni/send.png";
 import DotBoxO from "../assets/imagesAni/DotBoxO.png";
@@ -10,83 +11,84 @@ import bg2 from "../assets/images/bg2.png";
 import { Link } from "react-router-dom";
 import { latestNewsData } from "../data/data";
 import { IoIosArrowForward } from "react-icons/io";
-import Slider from "react-slick";
-import { useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
 
 export default function LatestS() {
-  const [activeSlide, setActiveSlide] = useState(0);
+  // const [activeSlide, setActiveSlide] = useState(0);
 
-  const settings = {
-    dots: false,
-    arrows: false,
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    initialSlide: 0,
-    speed: 500,
-    cssEase: "linear",
-    centerMode: true,
-    beforeChange: (currant, next) => setActiveSlide(next),
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          dots: false,
-          arrows: false,
-          infinite: true,
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          initialSlide: 0,
-          speed: 500,
-          // cssEase: "linear",
-          centerMode: true,
-        },
-      },
-      {
-        breakpoint: 900,
-        settings: {
-          dots: false,
-          arrows: false,
-          infinite: true,
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          initialSlide: 0,
-          speed: 500,
-          // cssEase: "linear",
-          centerMode: true,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          dots: false,
-          arrows: false,
-          infinite: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 0,
-          speed: 500,
-          // cssEase: "linear",
-          centerMode: true,
-        },
-      },
+  // const settings = {
+  //   dots: false,
+  //   arrows: false,
+  //   infinite: true,
+  //   slidesToShow: 3,
+  //   slidesToScroll: 1,
+  //   initialSlide: 0,
+  //   speed: 500,
+  //   cssEase: "linear",
+  //   centerMode: true,
+  //   beforeChange: (currant, next) => setActiveSlide(next),
+  //   responsive: [
+  //     {
+  //       breakpoint: 1024,
+  //       settings: {
+  //         dots: false,
+  //         arrows: false,
+  //         infinite: true,
+  //         slidesToShow: 2,
+  //         slidesToScroll: 1,
+  //         initialSlide: 0,
+  //         speed: 500,
+  //         // cssEase: "linear",
+  //         centerMode: true,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 900,
+  //       settings: {
+  //         dots: false,
+  //         arrows: false,
+  //         infinite: true,
+  //         slidesToShow: 2,
+  //         slidesToScroll: 1,
+  //         initialSlide: 0,
+  //         speed: 500,
+  //         // cssEase: "linear",
+  //         centerMode: true,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 768,
+  //       settings: {
+  //         dots: false,
+  //         arrows: false,
+  //         infinite: true,
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1,
+  //         initialSlide: 0,
+  //         speed: 500,
+  //         // cssEase: "linear",
+  //         centerMode: true,
+  //       },
+  //     },
 
-      {
-        breakpoint: 480,
-        settings: {
-          dots: false,
-          arrows: false,
-          infinite: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 0,
-          speed: 500,
-          // cssEase: "linear",
-          centerMode: true,
-        },
-      },
-    ],
-  };
+  //     {
+  //       breakpoint: 480,
+  //       settings: {
+  //         dots: false,
+  //         arrows: false,
+  //         infinite: true,
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1,
+  //         initialSlide: 0,
+  //         speed: 500,
+  //         // cssEase: "linear",
+  //         centerMode: true,
+  //       },
+  //     },
+  //   ],
+  // };
   return (
     <>
       <section className="relative h-auto">
@@ -101,15 +103,44 @@ export default function LatestS() {
         </div>
         {/* Latest News Content */}
         <div className="relative max-w-screen-xl mx-auto px-6 lg:px-10 py-10 z-[2]">
-          <Slider {...settings}>
+          <Swiper
+            className="py-10"
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+              pauseOnMouseEnter: true,
+            }}
+            loop={true}
+            slidesPerView={1}
+            spaceBetween={10}
+            breakpoints={{
+              640: {
+                slidesPerView: 1,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+              900: {
+                slidesPerView: 2,
+              },
+              1024: {
+                slidesPerView: 3,
+              },
+              1220: {
+                slidesPerView: 3,
+              },
+              1536: {
+                slidesPerView: 4,
+              },
+            }}
+          >
             {latestNewsData.map((item, id) => {
               return (
-                <>
+                <SwiperSlide key={id}>
                   <div
-                    key={id}
                     id="latestSlide"
                     className={`
-                      ${id === activeSlide ? "shadow-lg " : "border-2"}
+                   shadow-lg
                     rounded-2xl p-6 bg-light mx-2`}
                   >
                     <div className="w-full rounded-t-md overflow-hidden h-1/2">
@@ -127,9 +158,13 @@ export default function LatestS() {
                             alt={item.docName}
                             className="rounded-full w-10"
                           />
-                          <p className="text-[10px] sm:text-sm  md:text-base xl:text-lg">{item.docName}</p>
+                          <p className="text-[10px] sm:text-sm  md:text-base xl:text-lg">
+                            {item.docName}
+                          </p>
                         </div>
-                        <p className="text-[10px] sm:text-sm md:text-base xl:text-lg">{item.time}</p>
+                        <p className="text-[10px] sm:text-sm md:text-base xl:text-lg">
+                          {item.time}
+                        </p>
                       </div>
                       <p className="text-darkText font-bold text-lg md:text-xl xl:text-2xl leading-7">
                         {item.dec}{" "}
@@ -147,10 +182,10 @@ export default function LatestS() {
                       </Link>
                     </div>
                   </div>
-                </>
+                </SwiperSlide>
               );
             })}
-          </Slider>
+          </Swiper>
         </div>
         {/* bg images */}
         <div className="">
