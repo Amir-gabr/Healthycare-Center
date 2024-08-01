@@ -176,3 +176,36 @@ export const ServicesData = [
     comment: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
 ];
+
+export const ServiceDetailsData = [
+  {
+    id: 1,
+    title: "About",
+    dec: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, asperiores nam! Qui, dignissimos. Culpa, saepe nihil modi placeat unde ipsam quos excepturi. Ex nulla provident cumque dolor asperiores delectus minus?",
+  },
+  {
+    id: 2,
+    title: "About",
+    dec: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, asperiores nam! Qui, dignissimos. Culpa, saepe nihil modi placeat unde ipsam quos excepturi. Ex nulla provident cumque dolor asperiores delectus minus?",
+  },
+  {
+    id: 3,
+    title: "About",
+    dec: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, asperiores nam! Qui, dignissimos. Culpa, saepe nihil modi placeat unde ipsam quos excepturi. Ex nulla provident cumque dolor asperiores delectus minus?",
+  },
+  {
+    id: 4,
+    title: "About",
+    dec: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, asperiores nam! Qui, dignissimos. Culpa, saepe nihil modi placeat unde ipsam quos excepturi. Ex nulla provident cumque dolor asperiores delectus minus?",
+  },
+  {
+    id: 5,
+    title: "About",
+    dec: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, asperiores nam! Qui, dignissimos. Culpa, saepe nihil modi placeat unde ipsam quos excepturi. Ex nulla provident cumque dolor asperiores delectus minus?",
+  },
+  {
+    id: 6,
+    title: "About",
+    dec: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, asperiores nam! Qui, dignissimos. Culpa, saepe nihil modi placeat unde ipsam quos excepturi. Ex nulla provident cumque dolor asperiores delectus minus?",
+  },
+];

@@ -16,7 +16,7 @@ import boxB from "../assets/imagesAni/boxB.png";
 export default function Hero() {
   return (
     <>
-      <section className="relative min-h-screen">
+      <section className="relative h-auto mb-32 ">
         {/* background images */}
         <div className="">
           <img

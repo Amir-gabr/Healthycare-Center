@@ -84,10 +84,10 @@ export default function ServicesS() {
   };
   return (
     <>
-      <section className="relative h-screen">
+      <section className="relative h-auto mb-10 ">
         {/* Title and Description */}
-        <div className="space-y-3">
-          <h5 className="ObgTitle w-fit px-4 mx-auto text-orange-500 font-bold text-[22px]">
+        <div className="">
+          <h5 className="ObgTitle mb-6 w-fit px-4 mx-auto text-orange-500 font-bold text-[22px]">
             Services
           </h5>
           <h3 className="mx-auto w-4/5 md:w-3/5 lg:w-2/5 text-center text-darkText font-bold text-3xl md:text-[40px]">
@@ -95,14 +95,14 @@ export default function ServicesS() {
           </h3>
         </div>
         {/* Latest News Content */}
-        <div className="max-w-screen-xl mx-auto py-0 md:py-10 px-2 md:px-6 ">
+        <div className="max-w-screen-xl mx-auto py-0 md:py-10 px-4 md:px-10 ">
           <Slider {...settings}>
             {ServicesData.map((item, id) => {
               return (
                 <>
                   <div
                     key={id}
-                    className="servicesBg group rounded-2xl border p-6 bg-light"
+                    className="servicesBg group rounded-2xl border px-6 md:px-8 py-4 bg-light m-2 md:m-6"
                   >
                     <div className="rounded-xl duration-300 border-2 border-white group-hover:border-darkText w-20 overflow-hidden p-3 bg-primary group-hover:bg-light ">
                       <img
@@ -149,7 +149,6 @@ export default function ServicesS() {
             alt="animation image"
             className="absolute right-10 top-10 w-20 animate-moveY1 z-[-1]"
           />
- 
         </div>
       </section>
     </>

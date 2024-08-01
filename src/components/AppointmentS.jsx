@@ -12,10 +12,10 @@ import check from "../assets/images/check.png";
 export default function AppointmentS() {
   return (
     <>
-      <section className="relative min-h-screen">
+      <section className="relative h-auto mb-10 ">
         {/* Steps work Content */}
         <div
-          className="max-w-screen-xl mx-auto py-10 px-10 md:px-10 lg:px-32 grid grid-cols-1 lg:grid-cols-2 gap-10 rounded-3xl bg-light "
+          className="max-w-screen-xl mx-auto py-10 px-4 md:px-10 lg:px-32 grid grid-cols-1 lg:grid-cols-2 gap-10 rounded-3xl bg-light "
           id="appointment"
         >
           <div className="group duration-300 p-4 md:p-6 lg:p-8 rounded-xl border-2 border-darkText  ">

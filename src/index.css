@@ -9,6 +9,7 @@
 body {
   font-family: "Cairo", sans-serif;
   background: #fff;
+  position: relative;
 }
 html {
   scroll-behavior: smooth;
@@ -31,6 +32,8 @@ html {
   }
 }
 /* //=== navbar====== */
+
+/* //=== navbar screens====== */
 .lgNav {
   position: fixed;
   top: 0;
@@ -42,6 +45,7 @@ html {
   top: 0;
   left: 0;
   transition: all 0.5s ease-in-out;
+  z-index: 9999;
 }
 @media (max-width: 640px) {
   .lgNav {
@@ -69,6 +73,64 @@ html {
   }
 }
 
+/* //=== navbar models====== */
+#model,
+#searchModel {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999;
+  background: #001c2e;
+  transition: all 0.5s ease-in-out;
+}
+#searchModel {
+  background: #f7f7ff;
+}
+
+#modelList {
+  max-height: 302px;
+  overflow-y: auto;
+  margin-inline: auto;
+  background: #00111b;
+  animation: show 0.8s ease-in-out;
+}
+@keyframes show {
+  0% {
+    scale: 0;
+  }
+  50% {
+    scale: 1.2;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+
+/* //=== navbar links====== */
+#navLink {
+ overflow:hidden;
+ transition: all 0.5s ease-in-out;
+}
+#navLink:hover {
+ overflow:visible;
+}
+#tooltip {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+   top :100px;
+   transition: all 0.5s ease-in-out;
+  }
+  #navLink:hover #tooltip {
+    opacity: 1;
+    top :84px;
+}
+
+/* // ==== End navbar ==== */
+
 /* // ==== bg titles ==== */
 .BbgTitle {
   background-image: url("./assets/imagesAni/bgTitleB.png");
@@ -84,10 +146,10 @@ html {
   position: fixed;
   bottom: 40px;
   right: 20px;
-  z-index: 9999999;
+  z-index: 9999;
   transition: all 0.5s ease-in-out;
 }
-/* ====== our-Work ===== */
+/* ====== our-Work section ===== */
 
 #our-Work {
   background-image: url("./assets/images/wavy3.png");
@@ -97,7 +159,7 @@ html {
   height: 100%;
 }
 
-/* ====== appointment ====== */
+/* ====== appointment section ====== */
 #appointment {
   background-image: url("./assets/images/wavy4.png");
   background-repeat: no-repeat;
@@ -106,17 +168,16 @@ html {
   height: 100%;
 }
 
-/* ======= Services  ======= */
+/* ======= Services section ======= */
 
 .servicesBg {
   background-image: url("./assets/images/bg2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0%  20px;
+  /* margin: 0%  20px; */
 }
 
-
-/* ====== testimonial ====== */
+/* ====== testimonial section ====== */
 .testimonialBg {
   background-image: url("./assets/images/bg3.png");
   background-repeat: no-repeat;
@@ -124,16 +185,27 @@ html {
   width: 100%;
   height: 100%;
 }
-/* ======   test    ======== */
-.num {
-  -webkit-text-stroke: 2px #f17732;
-  color: transparent;
-  font-size: 80px;
-  font-weight: 900;
-  line-height: 80px;
-  margin-bottom: 30px;
-  text-shadow: 0 10px 0 #ffe3d3;
+/* ======   Collapse    ======== */
+/* .collapseContainer {
+  width: 400px;
 }
+.collItem {
+
+}
+.collTitle {
+
+}
+.collContent {
+max-height: 0;
+overflow: hidden;
+transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+.collContent.show {
+  max-height: 200px;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+
+} */
 
 /*  */
 /*===== S === Loader Style ====== */

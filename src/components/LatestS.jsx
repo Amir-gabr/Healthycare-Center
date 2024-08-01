@@ -89,7 +89,7 @@ export default function LatestS() {
   };
   return (
     <>
-      <section className="relative min-h-screen py-10">
+      <section className="relative h-auto">
         {/* Title and Description */}
         <div className="space-y-3">
           <h5 className="ObgTitle w-fit px-4 mx-auto text-orange-500 font-bold text-[22px]">
@@ -107,9 +107,10 @@ export default function LatestS() {
                 <>
                   <div
                     key={id}
+                    id="latestSlide"
                     className={`
                       ${id === activeSlide ? "shadow-lg " : "border-2"}
-                     p-4 rounded-md duration-300 bg-light m-4`}
+                    rounded-2xl p-6 bg-light mx-2`}
                   >
                     <div className="w-full rounded-t-md overflow-hidden h-1/2">
                       <img
@@ -119,18 +120,18 @@ export default function LatestS() {
                       />
                     </div>
                     <div className="flex flex-col justify-between py-4 space-y-4 h-1/2">
-                      <div className="flex items-center gap-6 text-orange-500 font-semibold">
+                      <div className="flex items-center gap-4 md:gap-6 text-orange-500 font-semibold">
                         <div className="flex items-center gap-2">
                           <img
                             src={item.docImage}
                             alt={item.docName}
                             className="rounded-full w-10"
                           />
-                          <p className="">{item.docName}</p>
+                          <p className="text-[10px] sm:text-sm  md:text-base xl:text-lg">{item.docName}</p>
                         </div>
-                        <p className="">{item.time}</p>
+                        <p className="text-[10px] sm:text-sm md:text-base xl:text-lg">{item.time}</p>
                       </div>
-                      <p className="text-darkText font-bold text-xl md:text-2xl leading-7">
+                      <p className="text-darkText font-bold text-lg md:text-xl xl:text-2xl leading-7">
                         {item.dec}{" "}
                       </p>
                       <Link

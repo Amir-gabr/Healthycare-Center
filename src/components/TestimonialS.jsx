@@ -43,10 +43,10 @@ export default function TestimonialS() {
   
   return (
     <>
-      <section className="relative min-h-screen">
+      <section className="relative h-auto mb-10 ">
         {/* Title and Description */}
         <div className="space-y-3">
-          <h5 className="ObgTitle w-fit px-4 mx-auto text-orange-500 font-bold text-[22px]">
+          <h5 className="ObgTitle mb-6 w-fit px-4 mx-auto text-orange-500 font-bold text-[22px]">
             Testimonial
           </h5>
           <h3 className="mx-auto w-4/5 md:w-3/5 lg:w-2/5 text-center text-darkText font-bold text-3xl md:text-[46px]">
@@ -54,8 +54,8 @@ export default function TestimonialS() {
           </h3>
         </div>
         {/* Testimonial Content */}
-        <div className="max-w-screen-xl mx-auto py-10 px-6 md:px-10 grid grid-cols-1 lg:grid-cols-2 gap-10">
-          <div className=" h-[400px] w-[400px] md:h-[470px] md:w-[580px] mx-auto">
+        <div className="max-w-screen-xl mx-auto py-10 px-4 md:px-10 grid grid-cols-1 lg:grid-cols-2 gap-10">
+          <div className=" h-[400px] w-[400px] md:h-[470px] md:w-[580px] mx-auto me-3">
             <div className="testimonialBg relative">
               <img
                 src={doc1}
@@ -101,13 +101,14 @@ export default function TestimonialS() {
                 sliderRef = slider;
               }}
               {...settings}
+              className="rounded-lg"
             >
               {TestimonialData.map((item, id) => {
                 return (
                   <>
                     <div
                       key={id}
-                      className="relative flex  flex-col justify-between px-4 md:px-8 py-16 rounded-3xl bg-orange-600 shadow-lg m-2 md:m-10"
+                      className="relative flex flex-col justify-between px-6 md:px-8 py-16 rounded-3xl bg-orange-600 shadow-lg m-2 md:m-10"
                     >
                       <p className="text-light font-bold text-xl">
                         {item.comment}

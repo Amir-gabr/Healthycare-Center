@@ -22,7 +22,7 @@ import plusB from "../assets/imagesAni/plusB.png";
 export default function Footer() {
   return (
     <>
-      <footer className="relative min-h-[86vh]">
+      <footer className="relative h-auto">
         {/* // background images */}
         <div className="">
           <img
@@ -37,15 +37,17 @@ export default function Footer() {
           />
         </div>
         {/* // main footer */}
-        <div className="max-w-screen-xl mx-auto px-10 flex flex-col justify-between gap-8 pt-14">
+        <div className="max-w-screen-xl mx-auto px-4  md:px-10 flex flex-col justify-between gap-8 pt-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pt-10">
-            <div className="flex flex-col mt-6 gap-10">
-              <img src={logo} alt="logo" className="w-48" />
-              <p className="text-gray-500">
-                Lorem ipsum is dolor sit amet, csectetur adipiscing elit, dolore
-                smod tempor incididunt ut labore et.
-              </p>
-              <div className="flex items-center gap-4">
+            <div className="flex flex-col items-center md:items-start mt-6 gap-10 border-b-2 md:border-0 pb-3">
+              <div className="flex flex-col gap-y-2 w-1/2">
+                <img src={logo} alt="logo" className="w-48" />
+                <p className="text-gray-500">
+                  Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
+                  dolore smod tempor incididunt ut labore et.
+                </p>
+              </div>
+              <div className="flex items-center gap-4 shrink">
                 <div className="">
                   <img src={phone} alt="phone" className="w-14" />
                 </div>
@@ -57,12 +59,16 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="relative flex flex-col gap-4 mt-6 text-center md:text-left">
-              <h3 className="text-darkText text-3xl font-extrabold">
+            <div className=" flex flex-col gap-4 mt-6 text-center md:text-left">
+              <h3 className="relative text-darkText text-3xl font-extrabold">
                 Quick Links
-                <img src={underTitleB} alt="image" className="absolute md:bottom-0" />
+                <img
+                  src={underTitleB}
+                  alt="image"
+                  className="absolute left-1/2 -translate-x-1/2 md:left-[50px] -bottom-4"
+                />
               </h3>
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-4 mt-2">
                 <Link
                   to="/about"
                   className="text-darkText hover:text-blue-500 duration-300 text-lg font-semibold"
@@ -101,12 +107,16 @@ export default function Footer() {
                 </Link>
               </div>
             </div>
-            <div className="flex flex-col gap-4 mt-6">
-              <h3 className="text-darkText text-3xl font-extrabold">
+            <div className="flex flex-col gap-4 mt-6 text-center md:text-left">
+              <h3 className="relative text-darkText text-3xl font-extrabold">
                 Our Service
-                <img src={underTitleB} alt="image" className="mt-2" />
+                <img
+                  src={underTitleB}
+                  alt="image"
+                  className="absolute left-1/2 -translate-x-1/2 md:left-[50px] -bottom-4"
+                />
               </h3>
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-4 mt-2">
                 <Link
                   to="/contact"
                   className="text-darkText hover:text-blue-500 duration-300 text-lg font-semibold"
@@ -145,10 +155,14 @@ export default function Footer() {
                 </Link>
               </div>
             </div>
-            <div className="flex flex-col gap-4 mt-6">
-              <h3 className="text-darkText text-3xl font-extrabold">
+            <div className="flex flex-col gap-4 mt-6 text-center md:text-left border-t-2 md:border-0 pt-3">
+              <h3 className="relative text-darkText text-3xl font-extrabold ">
                 Subscribe
-                <img src={underTitleB} alt="image" className="mt-2" />
+                <img
+                  src={underTitleB}
+                  alt="image"
+                  className="absolute left-1/2 -translate-x-1/2 md:left-[50px] -bottom-4"
+                />
               </h3>
               <div className="flex flex-col gap-4 mt-6">
                 <input
@@ -160,7 +174,7 @@ export default function Footer() {
                   Subscribe
                 </button>
               </div>
-              <div className="flex items-center gap-4 mt-6">
+              <div className="flex items-center justify-center md:justify-start gap-4 mt-6">
                 <img src={facebook} alt="facebook" className="w-6" />
                 <img src={linkedin} alt="linkedin" className="w-6" />
                 <img src={twitter} alt="twitter" className="w-6" />
