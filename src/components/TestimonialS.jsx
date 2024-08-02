@@ -55,42 +55,42 @@ export default function TestimonialS() {
         </div>
         {/* Testimonial Content */}
         <div className="max-w-screen-xl mx-auto py-10 px-4 md:px-10 grid grid-cols-1 lg:grid-cols-2 gap-10">
-          <div className=" h-[400px] w-[400px] md:h-[470px] md:w-[580px] mx-auto ">
-            <div className="testimonialBg relative mx-auto">
+          <div className="w-full h-full mx-auto ">
+            <div className="testimonialBg relative mx-auto hidden lg:block">
               <img
                 src={doc1}
                 alt=""
-                className="absolute top-6 md:top-0 translate-y-0 left-1/2 -translate-x-1/2 rounded-full w-16"
+                className="absolute lg:top-10 xl:top-0 translate-y-0 left-1/2 -translate-x-1/2 rounded-full w-16"
                 id="1"
               />
               <img
                 src={doc2}
                 alt=""
-                className="absolute left-10 bottom-24 md:left-24 md:bottom-24 rounded-full w-16"
+                className="absolute lg:left-8 lg:bottom-32 xl:left-24 xl:bottom-24 rounded-full w-16"
                 id="2"
               />
               <img
                 src={doc3}
                 alt=""
-                className="absolute left-10 top-24 md:left-24 md:top-24 rounded-full w-16"
+                className="absolute lg:left-8 lg:top-32 xl:left-24 xl:top-24  rounded-full w-16"
                 id="3"
               />
               <img
                 src={doc4}
                 alt=""
-                className="absolute right-10 top-24 md:right-24 md:top-24 rounded-full w-16"
+                className="absolute lg:right-8 lg:top-32 xl:right-24 xl:top-24 rounded-full w-16"
                 id="4"
               />
               <img
                 src={doc5}
                 alt=""
-                className="absolute right-10 bottom-24 md:right-24 md:bottom-24 rounded-full w-16"
+                className="absolute lg:right-8 lg:bottom-32 xl:right-24 xl:bottom-24 rounded-full w-16"
                 id="5"
               />
               <img
                 src={doc6}
                 alt=""
-                className="absolute translate-y-0 left-1/2 -translate-x-1/2 bottom-6 md:bottom-0 rounded-full w-16"
+                className="absolute lg:bottom-10 xl:bottom-0  translate-y-0 left-1/2 -translate-x-1/2 rounded-full w-16"
                 id="6"
               />
             </div>
@@ -145,17 +145,17 @@ export default function TestimonialS() {
           <img
             src={circilO}
             alt="animation image"
-            className="absolute right-20 bottom-6 w-20 z-[-1]"
+            className="absolute right-2 md:right-14 lg:right-20 bottom-6 w-20 z-[-1]"
           />
           <img
             src={boxB}
             alt="animation image"
-            className="absolute left-10 bottom-10 w-24 animate-moveY1 z-[-1]"
+            className="absolute -left-4  md:left-10 bottom-40 lg:bottom-10 w-24 animate-moveY1 z-[-1]"
           />
           <img
             src={plusO}
             alt="animation image"
-            className="absolute left-10 top-40 md:left-60 md:top-40 w-20 animate-moveY1 z-[-1]"
+            className="absolute left-10 top-20 md:left-60 md:top-40 w-20 animate-moveY1 z-[-1]"
           />
         </div>
       </section>

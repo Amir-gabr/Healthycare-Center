@@ -196,17 +196,17 @@ export default function Footer() {
           <img
             src={wavyB}
             alt="animation image"
-            className="absolute left-14 top-16 w-28 object-cover animate-moveX"
+            className="absolute left-3 md:left-8 lg:left-14 top-16 w-28 object-cover animate-moveX"
           />
           <img
             src={wavyB}
             alt="animation image"
-            className="absolute right-20 bottom-20 w-28 object-cover animate-moveX"
+            className="absolute right-2 md:right-14 lg:right-20  bottom-10 lg:bottom-20 w-28 object-cover animate-moveX"
           />
           <img
             src={plusB}
             alt="animation image"
-            className="absolute right-20 top-40 w-20 object-cover animate-moveSp z-[-1]"
+            className="absolute right-2 md:right-14 lg:right-20 top-40 w-20 object-cover animate-moveSp z-[-1]"
           />
           <img
             src={DotsCB}

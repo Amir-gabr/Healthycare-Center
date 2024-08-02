@@ -8,7 +8,7 @@ export default function Statistics() {
       <section className="relative">
         <div className="absolute top-0 left-0 w-full h-full bg-light z-[-1]"></div>
 
-        <div className="max-w-screen-xl mx-auto py-20 px-4 md:px-8 lg:px-10">
+        <div className="max-w-screen-xl mx-auto py-20 px-8 md:px-10 lg:px-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
             {StatisticsData.map((state) => (
               <div key={state.id} className="group">

@@ -158,13 +158,9 @@ export default function LatestS() {
                             alt={item.docName}
                             className="rounded-full w-10"
                           />
-                          <p className="text-[10px] sm:text-sm  md:text-base xl:text-lg">
-                            {item.docName}
-                          </p>
+                          <p className="text-base xl:text-lg">{item.docName}</p>
                         </div>
-                        <p className="text-[10px] sm:text-sm md:text-base xl:text-lg">
-                          {item.time}
-                        </p>
+                        <p className="text-base xl:text-lg">{item.time}</p>
                       </div>
                       <p className="text-darkText font-bold text-lg md:text-xl xl:text-2xl leading-7">
                         {item.dec}{" "}
@@ -205,17 +201,17 @@ export default function LatestS() {
           <img
             src={DotBoxO}
             alt="animation image"
-            className="absolute left-10 bottom-2 w-24 animate-moveY1 z-[-1]"
+            className="absolute left-4 md:left-6 lg:left-10 bottom-10 lg:bottom-2 w-24 animate-moveY1 z-[-1]"
           />
           <img
             src={DCirclB}
             alt="animation image"
-            className="absolute right-40 top-10 w-20 animate-moveSp z-[-1]"
+            className="absolute -right-10 md:right-14 lg:right-20 top-10 w-20 animate-moveSp z-[-1]"
           />
           <img
             src={wavyB}
             alt="animation image"
-            className="absolute right-20 bottom-4 w-28 animate-moveY1 z-[-1]"
+            className="absolute right-2 md:right-14 lg:right-20 bottom-20 md:bottom-5 w-28 animate-moveX z-[-1]"
           />
         </div>
       </section>

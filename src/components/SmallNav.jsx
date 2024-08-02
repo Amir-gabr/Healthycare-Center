@@ -17,7 +17,7 @@ import { PiListBold } from "react-icons/pi";
 // images
 import logo from "../assets/images/logo.png";
 import navLogo from "../assets/images/navLogo.png";
-import { CollapsePagesLink } from "./CollapseNav";
+import { CollapseNav } from "./CollapseNav";
 
 export default function SmallNav() {
   const [model, setModel] = useState(false);
@@ -67,7 +67,7 @@ export default function SmallNav() {
               className="w-3/4 border border-light rounded-3xl p-4 flex flex-col justify-between text-xl gap-4"
               id="modelList"
             >
-              <li className=" text-white">
+              <li onClick={() => setModel(false)} className="text-white">
                 <NavLink
                   to="/"
                   className="
@@ -78,8 +78,8 @@ export default function SmallNav() {
                   Home
                 </NavLink>
               </li>
-              <CollapsePagesLink />
-              <li className=" text-white">
+              <CollapseNav setModel={setModel} />
+              <li onClick={() => setModel(false)} className=" text-white">
                 <NavLink
                   to="/contact"
                   className="
