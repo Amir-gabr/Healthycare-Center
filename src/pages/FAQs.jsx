@@ -2,34 +2,34 @@
 //
 //
 
-// import { useState } from "react";
+import { useState } from "react";
 import BgBreadcrumb from "../components/BgBreadcrumb";
 import LatestS from "../components/LatestS";
-// import { TECollapse } from "tw-elements-react";
+import { TECollapse } from "tw-elements-react";
 
-// import { FAQsData } from "../data/data";
+import { FAQsData } from "../data/data";
 export default function FAQs() {
-  // const [activeElement, setActiveElement] = useState("");
+  const [activeElement, setActiveElement] = useState("");
 
-  // const handleClick = (value) => {
-  //   if (value === activeElement) {
-  //     setActiveElement("");
-  //   } else {
-  //     setActiveElement(value);
-  //   }
-  // };
+  const handleClick = (value) => {
+    if (value === activeElement) {
+      setActiveElement("");
+    } else {
+      setActiveElement(value);
+    }
+  };
   return (
     <>
       <BgBreadcrumb />
-      {/* <div className="max-w-screen-xl mx-auto  py-10 ">
-        <h3 className="text-4xl font-bold mb-10 BbgTitle w-fit mx-auto px-4 text-darkText">
+      <div className="max-w-screen-xl mx-auto py-10">
+        <h3 className=" text-2xl md:text-3xl lg:text-4xl font-bold mb-10 BbgTitle w-fit mx-auto px-4 text-darkText">
           Frequently Asked Questions
         </h3>
         <div id="accordionExample" className="flex flex-col gap-2 ">
           {FAQsData.map((faq) => (
             <div
               key={faq.id}
-              className="mx-auto border border-neutral-200 bg-light w-[48%] rounded-lg shadow-lg"
+              className="mx-auto border border-neutral-200 bg-light w-[70%] md:w-[60%] lg:w-[50%] rounded-lg shadow-lg"
             >
               <h2 className="mb-0" id={faq.head}>
                 <button
@@ -75,7 +75,7 @@ export default function FAQs() {
             </div>
           ))}
         </div>
-      </div> */}
+      </div>
       <LatestS />
     </>
   );

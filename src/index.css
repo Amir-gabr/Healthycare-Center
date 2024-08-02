@@ -1,6 +1,5 @@
 /*  */
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Poetsen+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
-
 /*  */
 @tailwind base;
 @tailwind components;
@@ -14,7 +13,6 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
 @layer components {
   .form-control {
     @apply outline-none w-full focus:outline-orange-200  border border-orange-200 border-opacity-50 px-3 py-1 rounded text-lg font-sans text-gray-900;
@@ -25,7 +23,6 @@ html {
     @apply bg-orange-500 hover:bg-orange-700 duration-300 font-semibold px-6 py-1 rounded-md text-base md:text-lg text-gray-100;
   }
 }
-
 @layer components {
   .input-error {
     @apply text-red-500 font-sans text-sm;
@@ -202,8 +199,8 @@ html {
 }
 
 #mask {
-  -webkit-mask-image: url("../public/image/mask.png");
-    mask-image: url("../public/image/mask.png");
+  -webkit-mask-image: url("./assets/image/mask.png");
+    mask-image: url("./assets/image/mask.png");
 
     -webkit-mask-position: center center;
     mask-position: center center;
@@ -211,4 +208,53 @@ html {
     mask-repeat: no-repeat;
     -webkit-mask-size: 100%;
     mask-size: 100%;
+}
+
+/* ================ */
+@media (max-width: 768px) {
+  .breadcrumb {
+    flex-direction: column;
+    text-align: center;
+  }
+  .breadcrumb a {
+    font-size: 1.5rem;
+  }
+}
+/* =============== */
+@media (max-width: 768px) {
+  .form-control {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  .btn {
+    font-size: 1rem;
+  }
+}
+/* ================ */
+@media (max-width: 768px) {
+  .text-xl {
+    font-size: 1.25rem;
+  }
+}
+/* ================ */
+/* ================ */
+/* ================ */
+/* ================ */
+/* ================ */
+@media (max-width: 768px) {
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+  .text-3xl {
+    font-size: 1.875rem;
+  }
+  .text-4xl {
+    font-size: 2.25rem;
+  }
+  .text-5xl {
+    font-size: 3rem;
+  }
+  .text-6xl {
+    font-size: 3.75rem;
+  }
 }
