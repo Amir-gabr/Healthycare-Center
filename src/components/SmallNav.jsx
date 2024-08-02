@@ -78,7 +78,7 @@ export default function SmallNav() {
                   Home
                 </NavLink>
               </li>
-              <CollapseNav setModel={setModel} />
+              <CollapseNav  />
               <li onClick={() => setModel(false)} className=" text-white">
                 <NavLink
                   to="/contact"

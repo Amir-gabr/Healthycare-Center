@@ -2,7 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { TECollapse } from "tw-elements-react";
 
-export function CollapseNav({ setModel }) {
+export function CollapseNav() {
   const [activeElement, setActiveElement] = useState("");
 
   const handleClick = (value) => {
@@ -55,13 +55,17 @@ export function CollapseNav({ setModel }) {
           >
             <ul className="flex flex-col justify-between gap-2 ">
               <li
-                onClick={() => setModel(false)}
-                className="text-light font-semibold transition duration-200 ease-in-out ">
+                // onClick={() => setModel(false)}
+                className="text-light font-semibold transition duration-200 ease-in-out "
+              >
                 <NavLink to="about" className="text-base hover:text-primary ">
                   About Us
                 </NavLink>
               </li>
-              <li   onClick={() => setModel(false)} className="text-light font-semibold transition duration-200 ease-in-out ">
+              <li
+                // onClick={() => setModel(false)}
+                className="text-light font-semibold transition duration-200 ease-in-out "
+              >
                 <NavLink
                   to="out-team"
                   className="text-base hover:text-primary "
@@ -69,7 +73,10 @@ export function CollapseNav({ setModel }) {
                   Our Team
                 </NavLink>
               </li>
-              <li   onClick={() => setModel(false)} className="text-light font-semibold transition duration-200 ease-in-out ">
+              <li
+                // onClick={() => setModel(false)}
+                className="text-light font-semibold transition duration-200 ease-in-out "
+              >
                 <NavLink to="faqs" className="text-base hover:text-primary ">
                   FAQ’s
                 </NavLink>
@@ -79,7 +86,10 @@ export function CollapseNav({ setModel }) {
                   Booking
                 </NavLink>
               </li>
-              <li   onClick={() => setModel(false)} className="text-light font-semibold transition duration-200 ease-in-out ">
+              <li
+                // onClick={() => setModel(false)}
+                className="text-light font-semibold transition duration-200 ease-in-out "
+              >
                 <NavLink
                   to="error-404"
                   className="text-base hover:text-primary "
@@ -87,7 +97,10 @@ export function CollapseNav({ setModel }) {
                   Error 404
                 </NavLink>
               </li>
-              <li   onClick={() => setModel(false)} className="text-light font-semibold transition duration-200 ease-in-out ">
+              <li
+                // onClick={() => setModel(false)}
+                className="text-light font-semibold transition duration-200 ease-in-out "
+              >
                 <NavLink to="about" className="text-base hover:text-primary ">
                   Login / Register
                 </NavLink>
@@ -134,7 +147,10 @@ export function CollapseNav({ setModel }) {
             className="border py-3 px-4"
           >
             <ul className="flex flex-col justify-between gap-2 ">
-              <li   onClick={() => setModel(false)} className="text-light font-semibold transition duration-200 ease-in-out ">
+              <li
+                // onClick={() => setModel(false)}
+                className="text-light font-semibold transition duration-200 ease-in-out "
+              >
                 <NavLink
                   to="services"
                   className="text-base hover:text-primary "
@@ -142,7 +158,10 @@ export function CollapseNav({ setModel }) {
                   Services
                 </NavLink>
               </li>
-              <li   onClick={() => setModel(false)} className="text-light font-semibold transition duration-200 ease-in-out ">
+              <li
+                // onClick={() => setModel(false)}
+                className="text-light font-semibold transition duration-200 ease-in-out "
+              >
                 <NavLink
                   to="services-details"
                   className="text-base hover:text-primary "
@@ -192,12 +211,18 @@ export function CollapseNav({ setModel }) {
             className="border py-3 px-4"
           >
             <ul className="flex flex-col justify-between gap-2 ">
-              <li   onClick={() => setModel(false)} className="text-light font-semibold transition duration-200 ease-in-out ">
+              <li
+                // onClick={() => setModel(false)}
+                className="text-light font-semibold transition duration-200 ease-in-out "
+              >
                 <NavLink to="blogs" className="text-base hover:text-primary ">
                   Blogs
                 </NavLink>
               </li>
-              <li   onClick={() => setModel(false)} className="text-light font-semibold transition duration-200 ease-in-out ">
+              <li
+                // onClick={() => setModel(false)}
+                className="text-light font-semibold transition duration-200 ease-in-out "
+              >
                 <NavLink
                   to="blogs-details"
                   className="text-base hover:text-primary "

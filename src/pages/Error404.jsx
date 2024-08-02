@@ -17,7 +17,7 @@ export default function Error404() {
       <BgBreadcrumb />
       <div className="min-h-[80vh] flex justify-center items-center">
 
-      <Lottie animationData={error} className="w-80"></Lottie>
+      <Lottie animationData={error} className="w-60"></Lottie>
       </div>
     </>
   );

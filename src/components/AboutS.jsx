@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 import about1 from "../assets/images/about1.jpg";
 import about2 from "../assets/images/about2.jpg";
 import about3 from "../assets/images/about3.jpg";
-import syringe from "../../public/image/1 (4).png";
-import hospital from "../../public/image/1 (5).png";
-import clinic from "../../public/image/1 (7).png";
-import ambulance from "../../public/image/1 (6).png";
+import syringe from "../assets/image/1 (4).png";
+import hospital from "../assets/image/1 (5).png";
+import clinic from "../assets/image/1 (7).png";
+import ambulance from "../assets/image/1 (6).png";
 
 // animation images
 import boxB from "../assets/imagesAni/boxB.png";

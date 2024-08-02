@@ -12,6 +12,7 @@ import { FaPlus } from "react-icons/fa";
 import { FaXmark } from "react-icons/fa6";
 //images
 import logo from "../assets/images/logo.png";
+import ServicesS from './ServicesS';
 
 export default function LargeNav() {
   const [search, setSearch] = useState(false);
@@ -53,6 +54,7 @@ export default function LargeNav() {
               </li>
               <li className="relative py-6" id="navLink">
                 <NavLink
+                  to="About"
                   className={({ isActive }) => {
                     return `
                     py-1 hover:text-orange-500 decoration-transparent
@@ -163,7 +165,7 @@ export default function LargeNav() {
                       before:bottom-0 before:transition-[width] before:duration-300`}
                     id="tooltipLink"
                   >
-                    <NavLink to="about">Login/Register</NavLink>
+                    <NavLink to="About">Login/Register</NavLink>
                   </li>
                 </ul>
               </li>
@@ -174,6 +176,7 @@ export default function LargeNav() {
                 onMouseLeave={() => setTooltipStatus(0)}
               >
                 <NavLink
+                  t0="Services"
                   className={({ isActive }) => {
                     return `
                     py-1 hover:text-orange-500 decoration-transparent duration-300 
@@ -223,7 +226,7 @@ export default function LargeNav() {
                       before:bottom-0 before:transition-[width] before:duration-300`}
                     id="tooltipLink"
                   >
-                    <NavLink to="Services details">Services-Details</NavLink>
+                    <NavLink to="Services-Details">Services-Details</NavLink>
                   </li>
                 </ul>
               </li>
@@ -234,6 +237,7 @@ export default function LargeNav() {
                 onMouseLeave={() => setTooltipStatus(0)}
               >
                 <NavLink
+                  to="Blogs"
                   className={({ isActive }) => {
                     return `
                     py-1 hover:text-orange-500 decoration-transparent
@@ -290,7 +294,7 @@ export default function LargeNav() {
               </li>
               <li className="relative py-6" id="navLink">
                 <NavLink
-                  to="contact"
+                  to="Contact"
                   className={({ isActive }) => {
                     return `
                     py-1 hover:text-orange-500 decoration-transparent
@@ -338,7 +342,7 @@ export default function LargeNav() {
               </li>
               <li className="py-2 ps-8 pe-2 bg-primary rounded-md shadow-md shadow-blue-200">
                 <NavLink
-                  to="/contact"
+                  to="Contact"
                   className="flex items-center gap-6 text-white"
                 >
                   Contact

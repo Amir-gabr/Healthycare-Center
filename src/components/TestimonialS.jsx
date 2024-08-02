@@ -10,12 +10,12 @@ import boxB from "../assets/imagesAni/boxB.png";
 import circilO from "../assets/imagesAni/circilO.png";
 import DotsCB from "../assets/imagesAni/DotsCB.png";
 //
-import doc1 from "../../public/image/doc1.jpeg";
-import doc2 from "../../public/image/doc2.jpeg";
-import doc3 from "../../public/image/doc3.jpeg";
-import doc4 from "../../public/image/doc4.jpeg";
-import doc5 from "../../public/image/doc5.jpeg";
-import doc6 from "../../public/image/doc6.jpeg";
+import doc1 from "../assets/image/doc1.jpeg";
+import doc2 from "../assets/image/doc2.jpeg";
+import doc3 from "../assets/image/doc3.jpeg";
+import doc4 from "../assets/image/doc4.jpeg";
+import doc5 from "../assets/image/doc5.jpeg";
+import doc6 from "../assets/image/doc6.jpeg";
 
 //icons
 import { TestimonialData } from "../data/data";

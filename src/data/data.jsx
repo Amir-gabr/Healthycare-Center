@@ -7,15 +7,35 @@ import { BsChatSquareQuoteFill } from "react-icons/bs";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa6";
 
 //
+import doc1 from "../assets/image/doc1.jpeg";
+import doc2 from "../assets/image/doc2.jpeg";
+import doc3 from "../assets/image/doc3.jpeg";
+import doc4 from "../assets/image/doc4.jpeg";
+import doc5 from "../assets/image/doc5.jpeg";
+import doc6 from "../assets/image/doc6.jpeg";
 //
+import diagnostics from "../assets/image/1 (1).png";
+import treatment from "../assets/image/1 (2).png";
+import care from "../assets/image/1 (3).png";
+import syringe from "../assets/image/1 (4).png";
+import hospital from "../assets/image/1 (5).png";
+import ambulance from "../assets/image/1 (6).png";
+import clinic from "../assets/image/1 (7).png";
+//
+import pic1 from "../assets/image/pic1.jpg";
+import pic2 from "../assets/image/pic2.jpg";
+import pic3 from "../assets/image/pic3.jpg";
+import pic4 from "../assets/image/pic4.jpg";
+import pic5 from "../assets/image/pic5.jpg";
+import pic6 from "../assets/image/pic6.jpg";
 //
 
 export const LatestNewsData = [
   {
     id: 1,
-    mainImage: "/image/pic1.jpg",
+    mainImage:pic1,
     docName: "Dr. John",
-    docImage: "/image/doc1.jpeg",
+    docImage:doc1,
     dec: "In this hospital there are special surgeon for you ",
     time: (
       <p className="flex items-center gap-2">
@@ -25,9 +45,9 @@ export const LatestNewsData = [
   },
   {
     id: 2,
-    mainImage: "/image/pic2.jpg",
+    mainImage: pic2,
     docName: "Dr. Michel",
-    docImage: "/image/doc2.jpeg",
+    docImage: doc2,
     dec: "Can you get a diluvian or prescription online?",
     time: (
       <p className="flex items-center gap-2">
@@ -37,9 +57,9 @@ export const LatestNewsData = [
   },
   {
     id: 3,
-    mainImage: "/image/pic3.jpg",
+    mainImage: pic3,
     docName: "Dr. Peter",
-    docImage: "/image/doc3.jpeg",
+    docImage: doc3,
     dec: "Why should you take care of your health and your family?",
     time: (
       <p className="flex items-center gap-2">
@@ -49,9 +69,9 @@ export const LatestNewsData = [
   },
   {
     id: 4,
-    mainImage: "/image/pic4.jpg",
+    mainImage: pic4,
     docName: "Dr. Kalian",
-    docImage: "/image/doc4.jpeg",
+    docImage: doc4,
     dec: "Health will be a thing of the pest and here’s why",
     time: (
       <p className="flex items-center gap-2">
@@ -61,9 +81,9 @@ export const LatestNewsData = [
   },
   {
     id: 5,
-    mainImage: "/image/pic5.jpg",
+    mainImage: pic5,
     docName: "Dr. Sonar ",
-    docImage: "/image/doc5.jpeg",
+    docImage: doc5,
     dec: "Dental care for women is very important to us",
     time: (
       <p className="flex items-center gap-2">
@@ -73,9 +93,9 @@ export const LatestNewsData = [
   },
   {
     id: 6,
-    mainImage: "/image/pic6.jpg",
+    mainImage: pic6,
     docName: "Dr. Mollika",
-    docImage: "/image/doc6.jpeg",
+    docImage: doc6,
     dec: "Why is skin surgeon considered underrated?",
     time: (
       <p className="flex items-center gap-2">
@@ -124,7 +144,7 @@ export const TestimonialData = [
     name: "John Doe",
     comment:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. ipsa placeat. Corporis, debitis et, odit maiores sint harum dicta, iusto est nostrum dolorum recusandae deserunt? Porro, recusandae!",
-    icon: <BsChatSquareQuoteFill  className="text-6xl"/>,
+    icon: <BsChatSquareQuoteFill className="text-6xl" />,
   },
   {
     id: 6,
@@ -132,51 +152,51 @@ export const TestimonialData = [
     name: "John Doe",
     comment:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. ipsa placeat. Corporis, debitis et, odit maiores sint harum dicta, iusto est nostrum dolorum recusandae deserunt? Porro, recusandae!",
-    icon: <BsChatSquareQuoteFill  className="text-6xl shadow-lg"/>,
+    icon: <BsChatSquareQuoteFill className="text-6xl shadow-lg" />,
   },
 ];
 export const ServicesData = [
   {
     id: 1,
     title: "Surgery",
-    image: "/image/1 (3).png",
+    image: syringe ,
     comment: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
   {
     id: 2,
     title: "Diagnostics",
-    image: "/image/1 (1).png",
+    image: diagnostics ,
     comment: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
   {
     id: 3,
     title: "Treatment",
-    image: "/image/1 (2).png",
+    image: treatment ,
     comment: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
   {
     id: 4,
     title: "Vaccine",
-    image: "/image/1 (4).png",
+    image: care ,
     comment: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
 
   {
     id: 5,
     title: "Diagnostics",
-    image: "/image/1 (5).png",
+    image:  hospital ,
     comment: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
   {
     id: 6,
     title: "Emergency",
-    image: "/image/1 (6).png",
+    image: ambulance ,
     comment: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
   {
     id: 7,
     title: "Diagnostics",
-    image: "/image/1 (7).png",
+    image: clinic ,
     comment: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
 ];
@@ -217,7 +237,7 @@ export const AboutData = [
     id: 1,
     docName: "Dr. Addition Smith",
     job: "Dentist",
-    docImage: "/image/doc1.jpeg",
+    docImage: doc1,
     social: (
       <div className="social flex items-center gap-3">
         <div className="bg-primary rounded-lg border overflow-hidden">
@@ -242,7 +262,7 @@ export const AboutData = [
     id: 2,
     docName: "Dr. Mahfuz Riad",
     job: "Cardiologist",
-    docImage: "/image/doc2.jpeg",
+    docImage: doc2,
     dec: "Can you get a diluvian or prescription online?",
     social: (
       <div className="social flex items-center gap-3">
@@ -268,7 +288,7 @@ export const AboutData = [
     id: 3,
     docName: "Dr. David Benjamin",
     job: "Chiropractor",
-    docImage: "/image/doc3.jpeg",
+    docImage: doc3,
     dec: "Why should you take care of your health?",
     social: (
       <div className="social flex items-center gap-3">
@@ -294,7 +314,7 @@ export const AboutData = [
     id: 4,
     docName: "Dr. Addition Smith",
     job: "Cardiologist",
-    docImage: "/image/doc4.jpeg",
+    docImage: doc4,
     dec: "Health will be a thing of the pest and here’s why",
     social: (
       <div className="social flex items-center gap-3">
@@ -320,7 +340,7 @@ export const AboutData = [
     id: 5,
     docName: "Dr. Mahfuz Riad",
     job: "Chiropractor",
-    docImage: "/image/doc5.jpeg",
+    docImage: doc5,
     dec: "Dental care for women is very important to us",
     social: (
       <div className="social flex items-center gap-3">
@@ -346,7 +366,7 @@ export const AboutData = [
     id: 6,
     docName: "Dr. Mollika Packer",
     job: "Dentist",
-    docImage: "/image/doc6.jpeg",
+    docImage: doc6,
     dec: "Why is skin surgeon considered underrated?",
     social: (
       <div className="social flex items-center gap-3">
