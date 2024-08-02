@@ -17,7 +17,6 @@ export default function BgBreadcrumb() {
     <>
       <div className="relative w-full h-[500px] flex justify-center items-center">
         <div className="flex flex-col items-center gap-6">
-          <h4 className="text-darkText font-bold text-7xl text-center">{lastPart}</h4>
           <nav className="rounded-2xl mx-auto flex justify-center items-center bg-primary p-4">
             <Link
               to="#"

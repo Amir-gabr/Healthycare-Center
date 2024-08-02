@@ -201,7 +201,14 @@ html {
     perspective: 300px;
 }
 
-.image {
-      overflow-clip-margin: content-box;
-    overflow: clip;
+#mask {
+  -webkit-mask-image: url("../public/image/mask.png");
+    mask-image: url("../public/image/mask.png");
+
+    -webkit-mask-position: center center;
+    mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
 }

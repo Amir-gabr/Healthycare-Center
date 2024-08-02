@@ -16,11 +16,11 @@ import boxB from "../assets/imagesAni/boxB.png";
 import DotBoxO from "../assets/imagesAni/DotBoxO.png";
 import emptyC from "../assets/imagesAni/emptyC.png";
 
-export default function About() {
+export default function AboutS() {
   return (
     <>
-      <section className="h-auto  ">
-        <div className="relative max-w-screen-xl mx-auto py-28 md:py-32 lg:py-40 px-4 md:px-10 lg:px-20 ">
+      <section className="h-auto">
+        <div className="relative max-w-screen-xl mx-auto py-28 md:py-32 lg:py-40 px-4 md:px-8 lg:px-10 ">
           <article className="relative grid grid-cols-1 lg:grid-cols-2 gap-10 z-10">
             <div className="grid grid-cols-2 gap-10 lg:mt-64 mb-4 mb:mb-0">
               <div className="w-full relative ">
@@ -150,7 +150,7 @@ export default function About() {
             <img
               src={boxB}
               alt=""
-              className="absolute z-0 top-60 left-10 animate-moveY1"
+              className="absolute z-0 top-60 left-4 animate-moveY1"
             />
           </div>
         </div>

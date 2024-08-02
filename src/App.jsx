@@ -68,13 +68,13 @@ export default function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="/About" element={<About />} />
-            <Route path="/Our Team" element={<OurTeam />} />
+            <Route path="/Our-Team" element={<OurTeam />} />
             <Route path="/FAQ,s" element={<FAQs />} />
             <Route path="/Booking" element={<Booking />} />
             <Route path="/Blogs" element={<Blogs />} />
-            <Route path="/Blogs Details" element={<Blogs />} />
+            <Route path="/Blogs-Details" element={<Blogs />} />
             <Route path="/Services" element={<Services />} />
-            <Route path="/Services Details" element={<Services />} />
+            <Route path="/Services-Details" element={<Services />} />
             <Route path="/Contact" element={<Contact />} />
             <Route path="*" element={<Error404 />} />
           </Route>

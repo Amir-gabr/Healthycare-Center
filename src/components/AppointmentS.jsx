@@ -7,6 +7,7 @@ import sittings from "../assets/images/sittings.png";
 import locations from "../assets/images/location.png";
 import comment from "../assets/images/comment.png";
 import check from "../assets/images/check.png";
+import BookingForm from "./BookingForm";
 //
 
 export default function AppointmentS() {
@@ -18,54 +19,7 @@ export default function AppointmentS() {
           className="max-w-screen-xl mx-auto py-10 px-4 md:px-10 lg:px-32 grid grid-cols-1 lg:grid-cols-2 gap-10 rounded-3xl bg-light "
           id="appointment"
         >
-          <div className="group duration-300 p-4 md:p-6 lg:p-8 rounded-xl border-2 border-darkText  ">
-            <form
-              action=""
-              className="bg-white space-y-4 p-4 md:p-6 lg:p-8 rounded-xl "
-            >
-              <h3 className="text-2xl font-bold text-darkText">
-                Book Appointment
-              </h3>
-              <div className="w-full">
-                <select className="form-select form-control">
-                  <option>Select Department</option>
-                  <option>One</option>
-                  <option>Two</option>
-                  <option>Three</option>
-                </select>
-              </div>
-              <div className="">
-                <select className="form-select form-control">
-                  <option>Select Doctor</option>
-                  <option>One</option>
-                  <option>Two</option>
-                  <option>Three</option>
-                </select>
-              </div>
-              <div className="">
-                <input
-                  type="text"
-                  name=""
-                  placeholder="Your Name"
-                  id=""
-                  className="form-control"
-                />
-              </div>
-              <div className="">
-                <input
-                  type="number"
-                  name=""
-                  placeholder="Your Phone"
-                  id=""
-                  className="form-control"
-                />
-              </div>
-              <div className="">
-                <input type="date" name="" id="" className="form-control" />
-              </div>
-              <button className="btn w-full py-3 px-8 ">Appointment Now</button>
-            </form>
-          </div>
+          <BookingForm />
           <div className="relative w-full h-full hidden lg:block" id="phoneBg">
             <img
               src={mobile}

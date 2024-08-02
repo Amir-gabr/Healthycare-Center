@@ -4,8 +4,9 @@
 
 import { FaCalendarAlt } from "react-icons/fa";
 import { BsChatSquareQuoteFill } from "react-icons/bs";
+import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa6";
 
-export const latestNewsData = [
+export const LatestNewsData = [
   {
     id: 1,
     mainImage: "./image/pic1.jpg",
@@ -176,7 +177,6 @@ export const ServicesData = [
     comment: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
 ];
-
 export const ServiceDetailsData = [
   {
     id: 1,
@@ -207,5 +207,188 @@ export const ServiceDetailsData = [
     id: 6,
     title: "About",
     dec: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, asperiores nam! Qui, dignissimos. Culpa, saepe nihil modi placeat unde ipsam quos excepturi. Ex nulla provident cumque dolor asperiores delectus minus?",
+  },
+];
+export const AboutData = [
+  {
+    id: 1,
+    docName: "Dr. Addition Smith",
+    job: "Dentist",
+    docImage: "./image/doc1.jpeg",
+    social: (
+      <div className="social flex items-center gap-3">
+        <div className="bg-primary rounded-lg border overflow-hidden">
+          <div className="p-2 duration-300 hover:bg-orange-600  ">
+            <FaFacebookF className="text-xl  text-light" />
+          </div>
+        </div>
+        <div className="bg-primary rounded-lg border overflow-hidden">
+          <div className="p-2 duration-300 hover:bg-orange-600  ">
+            <FaTwitter className="text-xl text-light" />
+          </div>
+        </div>
+        <div className="bg-primary rounded-lg border overflow-hidden">
+          <div className="p-2 duration-300 hover:bg-orange-600  ">
+            <FaInstagram className="text-xl text-light" />
+          </div>
+        </div>
+      </div>
+    ),
+  },
+  {
+    id: 2,
+    docName: "Dr. Mahfuz Riad",
+    job: "Cardiologist",
+    docImage: "./image/doc2.jpeg",
+    dec: "Can you get a diluvian or prescription online?",
+    social: (
+      <div className="social flex items-center gap-3">
+        <div className="bg-primary rounded-lg border overflow-hidden">
+          <div className="p-2 duration-300 hover:bg-orange-600  ">
+            <FaFacebookF className="text-xl  text-light" />
+          </div>
+        </div>
+        <div className="bg-primary rounded-lg border overflow-hidden">
+          <div className="p-2 duration-300 hover:bg-orange-600  ">
+            <FaTwitter className="text-xl text-light" />
+          </div>
+        </div>
+        <div className="bg-primary rounded-lg border overflow-hidden">
+          <div className="p-2 duration-300 hover:bg-orange-600  ">
+            <FaInstagram className="text-xl text-light" />
+          </div>
+        </div>
+      </div>
+    ),
+  },
+  {
+    id: 3,
+    docName: "Dr. David Benjamin",
+    job: "Chiropractor",
+    docImage: "./image/doc3.jpeg",
+    dec: "Why should you take care of your health?",
+    social: (
+      <div className="social flex items-center gap-3">
+        <div className="bg-primary rounded-lg border overflow-hidden">
+          <div className="p-2 duration-300 hover:bg-orange-600  ">
+            <FaFacebookF className="text-xl  text-light" />
+          </div>
+        </div>
+        <div className="bg-primary rounded-lg border overflow-hidden">
+          <div className="p-2 duration-300 hover:bg-orange-600  ">
+            <FaTwitter className="text-xl text-light" />
+          </div>
+        </div>
+        <div className="bg-primary rounded-lg border overflow-hidden">
+          <div className="p-2 duration-300 hover:bg-orange-600  ">
+            <FaInstagram className="text-xl text-light" />
+          </div>
+        </div>
+      </div>
+    ),
+  },
+  {
+    id: 4,
+    docName: "Dr. Addition Smith",
+    job: "Cardiologist",
+    docImage: "./image/doc4.jpeg",
+    dec: "Health will be a thing of the pest and here’s why",
+    social: (
+      <div className="social flex items-center gap-3">
+        <div className="bg-primary rounded-lg border overflow-hidden">
+          <div className="p-2 duration-300 hover:bg-orange-600  ">
+            <FaFacebookF className="text-xl  text-light" />
+          </div>
+        </div>
+        <div className="bg-primary rounded-lg border overflow-hidden">
+          <div className="p-2 duration-300 hover:bg-orange-600  ">
+            <FaTwitter className="text-xl text-light" />
+          </div>
+        </div>
+        <div className="bg-primary rounded-lg border overflow-hidden">
+          <div className="p-2 duration-300 hover:bg-orange-600  ">
+            <FaInstagram className="text-xl text-light" />
+          </div>
+        </div>
+      </div>
+    ),
+  },
+  {
+    id: 5,
+    docName: "Dr. Mahfuz Riad",
+    job: "Chiropractor",
+    docImage: "./image/doc5.jpeg",
+    dec: "Dental care for women is very important to us",
+    social: (
+      <div className="social flex items-center gap-3">
+        <div className="bg-primary rounded-lg border overflow-hidden">
+          <div className="p-2 duration-300 hover:bg-orange-600  ">
+            <FaFacebookF className="text-xl  text-light" />
+          </div>
+        </div>
+        <div className="bg-primary rounded-lg border overflow-hidden">
+          <div className="p-2 duration-300 hover:bg-orange-600  ">
+            <FaTwitter className="text-xl text-light" />
+          </div>
+        </div>
+        <div className="bg-primary rounded-lg border overflow-hidden">
+          <div className="p-2 duration-300 hover:bg-orange-600  ">
+            <FaInstagram className="text-xl text-light" />
+          </div>
+        </div>
+      </div>
+    ),
+  },
+  {
+    id: 6,
+    docName: "Dr. Mollika Packer",
+    job: "Dentist",
+    docImage: "./image/doc6.jpeg",
+    dec: "Why is skin surgeon considered underrated?",
+    social: (
+      <div className="social flex items-center gap-3">
+        <div className="bg-primary rounded-lg border overflow-hidden">
+          <div className="p-2 duration-300 hover:bg-orange-600  ">
+            <FaFacebookF className="text-xl  text-light" />
+          </div>
+        </div>
+        <div className="bg-primary rounded-lg border overflow-hidden">
+          <div className="p-2 duration-300 hover:bg-orange-600  ">
+            <FaTwitter className="text-xl text-light" />
+          </div>
+        </div>
+        <div className="bg-primary rounded-lg border overflow-hidden">
+          <div className="p-2 duration-300 hover:bg-orange-600  ">
+            <FaInstagram className="text-xl text-light" />
+          </div>
+        </div>
+      </div>
+    ),
+  },
+];
+export const StatisticsData = [
+  {
+    id: 1,
+    state: 120,
+    title: "Years With You",
+    desc: "Etiam ante ante, molestie vitae cursus ac, pharetra euismod libero.",
+  },
+  {
+    id: 2,
+    state: 400,
+    title: "Awards",
+    desc: "Etiam ante ante, molestie vitae cursus ac, pharetra euismod libero.",
+  },
+  {
+    id: 3,
+    state: 240,
+    title: "Doctors",
+    desc: "Etiam ante ante, molestie vitae cursus ac, pharetra euismod libero.",
+  },
+  {
+    id: 4,
+    state: 800,
+    title: "Satisfied Client",
+    desc: "Etiam ante ante, molestie vitae cursus ac, pharetra euismod libero.",
   },
 ];
