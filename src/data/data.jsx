@@ -13,9 +13,9 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa6";
 export const LatestNewsData = [
   {
     id: 1,
-    mainImage: "public/image/pic1.jpg",
+    mainImage: "/image/pic1.jpg",
     docName: "Dr. John",
-    docImage: "public/image/doc1.jpeg",
+    docImage: "/image/doc1.jpeg",
     dec: "In this hospital there are special surgeon for you ",
     time: (
       <p className="flex items-center gap-2">
@@ -25,9 +25,9 @@ export const LatestNewsData = [
   },
   {
     id: 2,
-    mainImage: "public/image/pic2.jpg",
+    mainImage: "/image/pic2.jpg",
     docName: "Dr. Michel",
-    docImage: "public/image/doc2.jpeg",
+    docImage: "/image/doc2.jpeg",
     dec: "Can you get a diluvian or prescription online?",
     time: (
       <p className="flex items-center gap-2">
@@ -37,9 +37,9 @@ export const LatestNewsData = [
   },
   {
     id: 3,
-    mainImage: "public/image/pic3.jpg",
+    mainImage: "/image/pic3.jpg",
     docName: "Dr. Peter",
-    docImage: "public/image/doc3.jpeg",
+    docImage: "/image/doc3.jpeg",
     dec: "Why should you take care of your health and your family?",
     time: (
       <p className="flex items-center gap-2">
@@ -49,9 +49,9 @@ export const LatestNewsData = [
   },
   {
     id: 4,
-    mainImage: "public/image/pic4.jpg",
+    mainImage: "/image/pic4.jpg",
     docName: "Dr. Kalian",
-    docImage: "public/image/doc4.jpeg",
+    docImage: "/image/doc4.jpeg",
     dec: "Health will be a thing of the pest and here’s why",
     time: (
       <p className="flex items-center gap-2">
@@ -61,9 +61,9 @@ export const LatestNewsData = [
   },
   {
     id: 5,
-    mainImage: "public/image/pic5.jpg",
+    mainImage: "/image/pic5.jpg",
     docName: "Dr. Sonar ",
-    docImage: "public/image/doc5.jpeg",
+    docImage: "/image/doc5.jpeg",
     dec: "Dental care for women is very important to us",
     time: (
       <p className="flex items-center gap-2">
@@ -73,9 +73,9 @@ export const LatestNewsData = [
   },
   {
     id: 6,
-    mainImage: "public/image/pic6.jpg",
+    mainImage: "/image/pic6.jpg",
     docName: "Dr. Mollika",
-    docImage: "public/image/doc6.jpeg",
+    docImage: "/image/doc6.jpeg",
     dec: "Why is skin surgeon considered underrated?",
     time: (
       <p className="flex items-center gap-2">
@@ -139,44 +139,44 @@ export const ServicesData = [
   {
     id: 1,
     title: "Surgery",
-    image: "public/image/1 (3).png",
+    image: "/image/1 (3).png",
     comment: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
   {
     id: 2,
     title: "Diagnostics",
-    image: "public/image/1 (1).png",
+    image: "/image/1 (1).png",
     comment: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
   {
     id: 3,
     title: "Treatment",
-    image: "public/image/1 (2).png",
+    image: "/image/1 (2).png",
     comment: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
   {
     id: 4,
     title: "Vaccine",
-    image: "public/image/1 (4).png",
+    image: "/image/1 (4).png",
     comment: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
 
   {
     id: 5,
     title: "Diagnostics",
-    image: "public/image/1 (5).png",
+    image: "/image/1 (5).png",
     comment: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
   {
     id: 6,
     title: "Emergency",
-    image: "public/image/1 (6).png",
+    image: "/image/1 (6).png",
     comment: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
   {
     id: 7,
     title: "Diagnostics",
-    image: "public/image/1 (7).png",
+    image: "/image/1 (7).png",
     comment: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
 ];
@@ -217,7 +217,7 @@ export const AboutData = [
     id: 1,
     docName: "Dr. Addition Smith",
     job: "Dentist",
-    docImage: "public/image/doc1.jpeg",
+    docImage: "/image/doc1.jpeg",
     social: (
       <div className="social flex items-center gap-3">
         <div className="bg-primary rounded-lg border overflow-hidden">
@@ -242,7 +242,7 @@ export const AboutData = [
     id: 2,
     docName: "Dr. Mahfuz Riad",
     job: "Cardiologist",
-    docImage: "public/image/doc2.jpeg",
+    docImage: "/image/doc2.jpeg",
     dec: "Can you get a diluvian or prescription online?",
     social: (
       <div className="social flex items-center gap-3">
@@ -268,7 +268,7 @@ export const AboutData = [
     id: 3,
     docName: "Dr. David Benjamin",
     job: "Chiropractor",
-    docImage: "public/image/doc3.jpeg",
+    docImage: "/image/doc3.jpeg",
     dec: "Why should you take care of your health?",
     social: (
       <div className="social flex items-center gap-3">
@@ -294,7 +294,7 @@ export const AboutData = [
     id: 4,
     docName: "Dr. Addition Smith",
     job: "Cardiologist",
-    docImage: "public/image/doc4.jpeg",
+    docImage: "/image/doc4.jpeg",
     dec: "Health will be a thing of the pest and here’s why",
     social: (
       <div className="social flex items-center gap-3">
@@ -320,7 +320,7 @@ export const AboutData = [
     id: 5,
     docName: "Dr. Mahfuz Riad",
     job: "Chiropractor",
-    docImage: "public/image/doc5.jpeg",
+    docImage: "/image/doc5.jpeg",
     dec: "Dental care for women is very important to us",
     social: (
       <div className="social flex items-center gap-3">
@@ -346,7 +346,7 @@ export const AboutData = [
     id: 6,
     docName: "Dr. Mollika Packer",
     job: "Dentist",
-    docImage: "public/image/doc6.jpeg",
+    docImage: "/image/doc6.jpeg",
     dec: "Why is skin surgeon considered underrated?",
     social: (
       <div className="social flex items-center gap-3">
