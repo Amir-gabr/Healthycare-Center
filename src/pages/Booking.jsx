@@ -10,8 +10,7 @@ export default function Booking() {
     <>
       <BgBreadcrumb />
       <div className="my-10">
-
-      <AppointmentS />
+        <AppointmentS />
       </div>
     </>
   );

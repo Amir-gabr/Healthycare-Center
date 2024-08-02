@@ -10,8 +10,6 @@ import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
-import Pages from "./pages/Pages";
-import Unfounded from "./pages/Error404";
 //other things
 import { Toaster } from "react-hot-toast";
 import { AnimatePresence } from "framer-motion";

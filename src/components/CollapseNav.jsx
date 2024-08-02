@@ -2,7 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { TECollapse } from "tw-elements-react";
 
-export function CollapseNav() {
+export function CollapseNav({ setModel }) {
   const [activeElement, setActiveElement] = useState("");
 
   const handleClick = (value) => {
@@ -55,7 +55,7 @@ export function CollapseNav() {
           >
             <ul className="flex flex-col justify-between gap-2 ">
               <li
-                // onClick={() => setModel(false)}
+                onClick={() => setModel(false)}
                 className="text-light font-semibold transition duration-200 ease-in-out "
               >
                 <NavLink to="about" className="text-base hover:text-primary ">
@@ -63,7 +63,7 @@ export function CollapseNav() {
                 </NavLink>
               </li>
               <li
-                // onClick={() => setModel(false)}
+                onClick={() => setModel(false)}
                 className="text-light font-semibold transition duration-200 ease-in-out "
               >
                 <NavLink
@@ -74,7 +74,7 @@ export function CollapseNav() {
                 </NavLink>
               </li>
               <li
-                // onClick={() => setModel(false)}
+                onClick={() => setModel(false)}
                 className="text-light font-semibold transition duration-200 ease-in-out "
               >
                 <NavLink to="faqs" className="text-base hover:text-primary ">
@@ -87,7 +87,7 @@ export function CollapseNav() {
                 </NavLink>
               </li>
               <li
-                // onClick={() => setModel(false)}
+                onClick={() => setModel(false)}
                 className="text-light font-semibold transition duration-200 ease-in-out "
               >
                 <NavLink
@@ -98,7 +98,7 @@ export function CollapseNav() {
                 </NavLink>
               </li>
               <li
-                // onClick={() => setModel(false)}
+                onClick={() => setModel(false)}
                 className="text-light font-semibold transition duration-200 ease-in-out "
               >
                 <NavLink to="about" className="text-base hover:text-primary ">
@@ -148,7 +148,7 @@ export function CollapseNav() {
           >
             <ul className="flex flex-col justify-between gap-2 ">
               <li
-                // onClick={() => setModel(false)}
+                onClick={() => setModel(false)}
                 className="text-light font-semibold transition duration-200 ease-in-out "
               >
                 <NavLink
@@ -159,7 +159,7 @@ export function CollapseNav() {
                 </NavLink>
               </li>
               <li
-                // onClick={() => setModel(false)}
+                onClick={() => setModel(false)}
                 className="text-light font-semibold transition duration-200 ease-in-out "
               >
                 <NavLink
@@ -220,7 +220,7 @@ export function CollapseNav() {
                 </NavLink>
               </li>
               <li
-                // onClick={() => setModel(false)}
+                onClick={() => setModel(false)}
                 className="text-light font-semibold transition duration-200 ease-in-out "
               >
                 <NavLink

@@ -2,26 +2,26 @@
 //
 //
 
-import { useState } from "react";
+// import { useState } from "react";
 import BgBreadcrumb from "../components/BgBreadcrumb";
 import LatestS from "../components/LatestS";
-import { TECollapse } from "tw-elements-react";
+// import { TECollapse } from "tw-elements-react";
 
-import { FAQsData } from "../data/data";
+// import { FAQsData } from "../data/data";
 export default function FAQs() {
-  const [activeElement, setActiveElement] = useState("");
+  // const [activeElement, setActiveElement] = useState("");
 
-  const handleClick = (value) => {
-    if (value === activeElement) {
-      setActiveElement("");
-    } else {
-      setActiveElement(value);
-    }
-  };
+  // const handleClick = (value) => {
+  //   if (value === activeElement) {
+  //     setActiveElement("");
+  //   } else {
+  //     setActiveElement(value);
+  //   }
+  // };
   return (
     <>
       <BgBreadcrumb />
-      <div className="max-w-screen-xl mx-auto  py-10 ">
+      {/* <div className="max-w-screen-xl mx-auto  py-10 ">
         <h3 className="text-4xl font-bold mb-10 BbgTitle w-fit mx-auto px-4 text-darkText">
           Frequently Asked Questions
         </h3>
@@ -75,7 +75,7 @@ export default function FAQs() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
       <LatestS />
     </>
   );
