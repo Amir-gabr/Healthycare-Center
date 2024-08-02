@@ -23,7 +23,7 @@ export default function OurWorkS() {
         </div>
         {/* Steps work Content */}
         <div className="max-w-screen-xl mx-auto py-10 px-10 md:px-10 lg:px-32  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
-          <div className="group duration-300 p-8 rounded-xl border hover:bg-orange-400 shadow-xl bg-white">
+          <div className="group  duration-300 p-8 rounded-xl border hover:bg-orange-400 shadow-xl bg-white">
             <div className="num">01</div>
             <h3 className="text-2xl font-bold text-orange-500 group-hover:text-light">
               Make Appointment
@@ -44,7 +44,7 @@ export default function OurWorkS() {
               </span>
             </Link>
           </div>
-          <div className="group duration-300 p-8 rounded-xl border hover:bg-orange-400 shadow-xl bg-white">
+          <div className="group  duration-300 p-8 rounded-xl border hover:bg-orange-400 shadow-xl bg-white">
             <div className="num">02</div>
             <h3 className="text-2xl font-bold text-orange-500 group-hover:text-light">
               Take Treatment
@@ -65,7 +65,7 @@ export default function OurWorkS() {
               </span>
             </Link>
           </div>
-          <div className="group duration-300 p-8 rounded-xl border hover:bg-orange-400 shadow-xl bg-white">
+          <div className="group  duration-300 p-8 rounded-xl border hover:bg-orange-400 shadow-xl bg-white">
             <div className="num">03</div>
             <h3 className="text-2xl font-bold text-orange-500 group-hover:text-light">
               Registration

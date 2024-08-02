@@ -196,3 +196,12 @@ html {
   text-shadow: 0 10px 0 #ffe3d3;
   transition: all 0.5s;
 }
+/* ================= */
+.cube-container {
+    perspective: 300px;
+}
+
+.image {
+      overflow-clip-margin: content-box;
+    overflow: clip;
+}

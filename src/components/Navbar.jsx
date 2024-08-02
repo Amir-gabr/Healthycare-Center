@@ -16,7 +16,7 @@ import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/images/logo.png";
 import navLogo from "../assets/images/navLogo.png";
 import { useState } from "react";
-import { CollapsePagesLink } from "./Collapse";
+import { CollapsePagesLink } from "./CollapseNav";
 
 export default function Navbar() {
   const [model, setModel] = useState(false);
@@ -155,13 +155,16 @@ export default function Navbar() {
               </li>
               <li className="relative py-6" id="navLink">
                 <NavLink
-                  to="pages"
                   className={({ isActive }) => {
                     return `
                     py-1 hover:text-orange-500 decoration-transparent
-                    duration-300 before:bg-primary transition
+                    duration-300 transition
                     flex items-center group 
-                  ${isActive ? "text-primary font-bold" : "text-slate-700 "}
+                  ${
+                    isActive
+                      ? "text-slate-700 font-semibold"
+                      : "text-slate-700 "
+                  }
                     `;
                   }}
                 >
@@ -187,7 +190,7 @@ export default function Navbar() {
                       before:bottom-0 before:transition-[width] before:duration-300`}
                     id="tooltipLink"
                   >
-                    <NavLink to="about">About us</NavLink>
+                    <NavLink to="About">About us</NavLink>
                   </li>
                   <li
                     onMouseEnter={() => setTooltipStatus(22)}
@@ -202,7 +205,7 @@ export default function Navbar() {
                       before:bottom-0 before:transition-[width] before:duration-300`}
                     id="tooltipLink"
                   >
-                    <NavLink to="about">Our Team</NavLink>
+                    <NavLink to="Our-Team">Our Team</NavLink>
                   </li>
                   <li
                     onMouseEnter={() => setTooltipStatus(23)}
@@ -217,7 +220,7 @@ export default function Navbar() {
                       before:bottom-0 before:transition-[width] before:duration-300`}
                     id="tooltipLink"
                   >
-                    <NavLink to="about">FAQ’s</NavLink>
+                    <NavLink to="FAQ,s">FAQ’s</NavLink>
                   </li>
                   <li
                     onMouseEnter={() => setTooltipStatus(24)}
@@ -232,7 +235,7 @@ export default function Navbar() {
                       before:bottom-0 before:transition-[width] before:duration-300`}
                     id="tooltipLink"
                   >
-                    <NavLink to="about">Booking</NavLink>
+                    <NavLink to="Booking">Booking</NavLink>
                   </li>
                   <li
                     onMouseEnter={() => setTooltipStatus(25)}
@@ -247,7 +250,7 @@ export default function Navbar() {
                       before:bottom-0 before:transition-[width] before:duration-300`}
                     id="tooltipLink"
                   >
-                    <NavLink to="about">Error 404</NavLink>
+                    <NavLink to="Error-404">Error-404</NavLink>
                   </li>
                   <li
                     onMouseEnter={() => setTooltipStatus(26)}
@@ -273,13 +276,15 @@ export default function Navbar() {
                 onMouseLeave={() => setTooltipStatus(0)}
               >
                 <NavLink
-                  to="services"
                   className={({ isActive }) => {
                     return `
-                    py-1 hover:text-orange-500 decoration-transparent
-                    duration-300 before:bg-primary
+                    py-1 hover:text-orange-500 decoration-transparent duration-300 
                     flex items-center group
-                  ${isActive ? "text-primary font-bold" : "text-slate-700 "}
+                  ${
+                    isActive
+                      ? "text-slate-700 font-semibold"
+                      : "text-slate-700 "
+                  }
                     `;
                   }}
                 >
@@ -305,7 +310,7 @@ export default function Navbar() {
                       before:bottom-0 before:transition-[width] before:duration-300`}
                     id="tooltipLink"
                   >
-                    <NavLink to="about">Services</NavLink>
+                    <NavLink to="Services">Services</NavLink>
                   </li>
                   <li
                     onMouseEnter={() => setTooltipStatus(32)}
@@ -320,7 +325,7 @@ export default function Navbar() {
                       before:bottom-0 before:transition-[width] before:duration-300`}
                     id="tooltipLink"
                   >
-                    <NavLink to="about">Services Details</NavLink>
+                    <NavLink to="Services details">Services-Details</NavLink>
                   </li>
                 </ul>
               </li>
@@ -331,13 +336,16 @@ export default function Navbar() {
                 onMouseLeave={() => setTooltipStatus(0)}
               >
                 <NavLink
-                  to="blogs"
                   className={({ isActive }) => {
                     return `
                     py-1 hover:text-orange-500 decoration-transparent
-                    duration-300 before:bg-primary
+                    duration-300 
                     flex items-center group 
-                  ${isActive ? "text-primary font-bold" : "text-slate-700 "}
+                  ${
+                    isActive
+                      ? " text-slate-700 font-semibold"
+                      : "text-slate-700 "
+                  }
                     `;
                   }}
                 >
@@ -363,7 +371,7 @@ export default function Navbar() {
                       before:bottom-0 before:transition-[width] before:duration-300`}
                     id="tooltipLink"
                   >
-                    <NavLink to="about">Blogs</NavLink>
+                    <NavLink to="Blogs">Blogs</NavLink>
                   </li>
                   <li
                     onMouseEnter={() => setTooltipStatus(42)}
@@ -378,7 +386,7 @@ export default function Navbar() {
                       before:bottom-0 before:transition-[width] before:duration-300`}
                     id="tooltipLink"
                   >
-                    <NavLink to="about">Blogs Details</NavLink>
+                    <NavLink to="Blogs Details">Blogs-Details</NavLink>
                   </li>
                 </ul>
               </li>

@@ -11,11 +11,16 @@ import Blogs from "./pages/Blogs";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Pages from "./pages/Pages";
-import Unfounded from "./pages/Unfounded";
+import Unfounded from "./pages/Error404";
 //other things
 import { Toaster } from "react-hot-toast";
 import { AnimatePresence } from "framer-motion";
 import { useEffect } from "react";
+import About from "./pages/About";
+import OurTeam from "./pages/OurTeam";
+import FAQs from "./pages/FAQs";
+import Booking from "./pages/Booking";
+import Error404 from "./pages/Error404";
 
 //scroll to top function
 const ScrollToTop = () => {
@@ -62,11 +67,16 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="/pages" element={<Pages />} />
-            <Route path="/blogs" element={<Blogs />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<Unfounded />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Our Team" element={<OurTeam />} />
+            <Route path="/FAQ,s" element={<FAQs />} />
+            <Route path="/Booking" element={<Booking />} />
+            <Route path="/Blogs" element={<Blogs />} />
+            <Route path="/Blogs Details" element={<Blogs />} />
+            <Route path="/Services" element={<Services />} />
+            <Route path="/Services Details" element={<Services />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="*" element={<Error404 />} />
           </Route>
         </Routes>
       </AnimatePresence>

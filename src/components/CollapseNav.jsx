@@ -60,22 +60,28 @@ export function CollapsePagesLink() {
                 </NavLink>
               </li>
               <li className="text-light font-semibold transition duration-200 ease-in-out ">
-                <NavLink to="about" className="text-base hover:text-primary ">
+                <NavLink
+                  to="out-team"
+                  className="text-base hover:text-primary "
+                >
                   Our Team
                 </NavLink>
               </li>
               <li className="text-light font-semibold transition duration-200 ease-in-out ">
-                <NavLink to="about" className="text-base hover:text-primary ">
+                <NavLink to="faqs" className="text-base hover:text-primary ">
                   FAQ’s
                 </NavLink>
               </li>
               <li className="text-light font-semibold transition duration-200 ease-in-out ">
-                <NavLink to="about" className="text-base hover:text-primary ">
+                <NavLink to="booking" className="text-base hover:text-primary ">
                   Booking
                 </NavLink>
               </li>
               <li className="text-light font-semibold transition duration-200 ease-in-out ">
-                <NavLink to="about" className="text-base hover:text-primary ">
+                <NavLink
+                  to="error-404"
+                  className="text-base hover:text-primary "
+                >
                   Error 404
                 </NavLink>
               </li>
@@ -127,12 +133,18 @@ export function CollapsePagesLink() {
           >
             <ul className="flex flex-col justify-between gap-2 ">
               <li className="text-light font-semibold transition duration-200 ease-in-out ">
-                <NavLink to="about" className="text-base hover:text-primary ">
+                <NavLink
+                  to="services"
+                  className="text-base hover:text-primary "
+                >
                   Services
                 </NavLink>
               </li>
               <li className="text-light font-semibold transition duration-200 ease-in-out ">
-                <NavLink to="about" className="text-base hover:text-primary ">
+                <NavLink
+                  to="services-details"
+                  className="text-base hover:text-primary "
+                >
                   Services Details
                 </NavLink>
               </li>
@@ -179,12 +191,15 @@ export function CollapsePagesLink() {
           >
             <ul className="flex flex-col justify-between gap-2 ">
               <li className="text-light font-semibold transition duration-200 ease-in-out ">
-                <NavLink to="about" className="text-base hover:text-primary ">
+                <NavLink to="blogs" className="text-base hover:text-primary ">
                   Blogs
                 </NavLink>
               </li>
               <li className="text-light font-semibold transition duration-200 ease-in-out ">
-                <NavLink to="about" className="text-base hover:text-primary ">
+                <NavLink
+                  to="blogs-details"
+                  className="text-base hover:text-primary "
+                >
                   Blogs Details
                 </NavLink>
               </li>
