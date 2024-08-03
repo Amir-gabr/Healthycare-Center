@@ -11,8 +11,8 @@ export default function ServicesDetails() {
   return (
     <>
       <BgBreadcrumb />
-      <div className="max-w-screen-xl flex flex-row gap-5  mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <div className="w-[70%] min-h-screen bg-light p-10 shadow-xl rounded-xl">
+      <div className="max-w-screen-xl flex flex-col lg:flex-row gap-5  mx-auto py-20 px-4 md:px-8 lg:px-10">
+        <div className="w-[100%] lg:w-[70%] min-h-screen bg-light p-10 shadow-xl rounded-xl space-y-6">
           <div className="space-y-4">
             <div className="w-full ">
               <img
@@ -24,7 +24,7 @@ export default function ServicesDetails() {
             <h5 className="text-4xl text-darkText font-bold ">
               Why Medical Had Been So Popular Till
             </h5>
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col md:flex-row items-center justify-between">
               <div className="">
                 <div className="group flex items-center gap-4">
                   <p className="border-[1px] rounded-md p-2 bg-primary group-hover:bg-orange-600 duration-300">
@@ -119,7 +119,7 @@ export default function ServicesDetails() {
             <Accordion className="min-h-screen bg-light w-full" />
           </div>
         </div>
-        <div className="w-[30%] ms-auto">
+        <div className=" w-[100%] lg:w-[30%] ms-auto">
           <div className="w-full sticky top-28 left-[100%] z-[10] duration-300 transition">
             <StickyServ className="" />
           </div>
