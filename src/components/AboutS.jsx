@@ -64,26 +64,54 @@ const AboutS = () => {
               </p>
             </div>
             <div className="flex flex-wrap gap-3">
-              <Feature
-                icon={ambulance}
-                label="Emergency Help"
-                color="bg-slate-100"
-              />
-              <Feature
-                icon={hospital}
-                label="Qualified Doctors"
-                color="bg-blue-100"
-              />
-              <Feature
-                icon={clinic}
-                label="Best Professionals"
-                color="bg-red-100"
-              />
-              <Feature
-                icon={syringe}
-                label="Medical Treatment"
-                color="bg-lime-100"
-              />
+              <div className="group flex items-center gap-6 w-full md:w-[48%] border rounded-sm border-dashed border-darkText">
+                <div className="py-2 px-4 bg-slate-100 flex justify-center items-center rounded-e-full">
+                  <img
+                    src={ambulance}
+                    alt="ambulance"
+                    className="w-[46PX] group-hover:animate-shake"
+                  />
+                </div>
+                <p className="text-lg font-semibold text-slate-700">
+                  Emergency Help
+                </p>
+              </div>
+              <div className="group flex items-center gap-6 w-full md:w-[48%] border rounded-sm border-dashed border-darkText">
+                <div className="py-2 px-4 bg-blue-100 flex justify-center items-center rounded-e-full">
+                  <img
+                    src={hospital}
+                    alt="hospital-bed"
+                    className="w-[46PX] group-hover:animate-shake"
+                  />
+                </div>
+                <p className="text-lg font-semibold text-slate-700">
+                  Qualified Doctors
+                </p>
+              </div>
+              <div className="group flex items-center gap-6 w-full md:w-[48%] border rounded-sm border-dashed border-darkText">
+                <div className="py-2 px-4 bg-red-100 flex justify-center items-center rounded-e-full">
+                  <img
+                    src={clinic}
+                    alt="clinic"
+                    className="w-[46PX] group-hover:animate-shake"
+                  />
+                </div>
+                <p className="text-lg font-semibold text-slate-700">
+                  Best Professionals
+                </p>
+              </div>
+              <div className="group flex items-center gap-6 w-full md:w-[48%] border rounded-sm border-dashed border-darkText">
+                <div className="py-2 px-4 bg-lime-100 flex justify-center items-center rounded-e-full">
+                  <img
+                    src={syringe}
+                    alt="syringe"
+                    className="w-[46PX] group-hover:animate-shake"
+                  />
+                </div>
+                <p className="text-lg font-semibold text-slate-700">
+                  Medical Treatment
+                </p>
+              </div>
             </div>
             <Link
               to="/about"
@@ -99,22 +127,7 @@ const AboutS = () => {
   );
 };
 
-const Feature = memo(function Feature({ icon, label, color }) {
-  // component code
 
-  <div className="group flex items-center gap-6 w-full md:w-[48%] border rounded-sm border-dashed border-darkText">
-    <div
-      className={`py-2 px-4 ${color} flex justify-center items-center rounded-e-full`}
-    >
-      <img
-        src={icon}
-        alt={label}
-        className="w-[46PX] group-hover:animate-shake"
-      />
-    </div>
-    <p className="text-lg font-semibold text-slate-700">{label}</p>
-  </div>;
-});
 
 const AnimationImages = memo(function AnimationImages() {
   // component code
