@@ -26,7 +26,7 @@ export default function OurWorkS() {
           <div className="group  duration-300 p-8 rounded-xl border hover:bg-orange-400 shadow-xl bg-white">
             <div className="num">01</div>
             <h3 className="text-2xl font-bold text-orange-500 group-hover:text-light">
-              Make Appointment
+              Registration
             </h3>
             <p className="text-lg font-semibold text-orange-500 group-hover:text-light">
               It is a long established fact that a reader will be distracted by
@@ -47,6 +47,27 @@ export default function OurWorkS() {
           <div className="group  duration-300 p-8 rounded-xl border hover:bg-orange-400 shadow-xl bg-white">
             <div className="num">02</div>
             <h3 className="text-2xl font-bold text-orange-500 group-hover:text-light">
+              Make Appointment
+            </h3>
+            <p className="text-lg font-semibold text-orange-500 group-hover:text-light">
+              It is a long established fact that a reader will be distracted by
+              the readable content of.
+            </p>
+            <Link
+              to="/contact"
+              className="group flex items-center gap-6 w-fit hover:bg-orange-300  duration-300 border-[2px] border-orange-500 group-hover:border-light rounded-md ps-2 pe-1 py-1 mt-4"
+            >
+              <p className="text-orange-500 group-hover:text-light font-semibold">
+                View More
+              </p>
+              <span className="bg-orange-500 rounded-md p-2 group-hover:bg-light">
+                <IoIosArrowForward className=" text-[20px] text-light group-hover:text-orange-600" />
+              </span>
+            </Link>
+          </div>
+          <div className="group  duration-300 p-8 rounded-xl border hover:bg-orange-400 shadow-xl bg-white">
+            <div className="num">03</div>
+            <h3 className="text-2xl font-bold text-orange-500 group-hover:text-light">
               Take Treatment
             </h3>
             <p className="text-lg font-semibold text-orange-500 group-hover:text-light">
@@ -65,27 +86,6 @@ export default function OurWorkS() {
               </span>
             </Link>
           </div>
-          <div className="group  duration-300 p-8 rounded-xl border hover:bg-orange-400 shadow-xl bg-white">
-            <div className="num">03</div>
-            <h3 className="text-2xl font-bold text-orange-500 group-hover:text-light">
-              Registration
-            </h3>
-            <p className="text-lg font-semibold text-orange-500 group-hover:text-light">
-              It is a long established fact that a reader will be distracted by
-              the readable content of.
-            </p>
-            <Link
-              to="/contact"
-              className="group flex items-center gap-6 w-fit hover:bg-orange-300  duration-300 border-[2px] border-orange-500 group-hover:border-light rounded-md ps-2 pe-1 py-1 mt-4"
-            >
-              <p className="text-orange-500 group-hover:text-light font-semibold">
-                View More
-              </p>
-              <span className="bg-orange-500 rounded-md p-2 group-hover:bg-light">
-                <IoIosArrowForward className=" text-[20px] text-light group-hover:text-orange-600" />
-              </span>
-            </Link>
-          </div>
         </div>
 
         {/* animation images */}
@@ -98,7 +98,7 @@ export default function OurWorkS() {
           <img
             src={DotBoxO}
             alt="animation image"
-            className="absolute right-10  md:right-20 bottom-80 md:bottom-56 w-24 animate-moveY1 z-[-1]"
+            className="absolute right-2 md:right-20 bottom-80 md:bottom-56 w-24 animate-moveY1 z-[-1]"
           />
         </div>
       </section>
