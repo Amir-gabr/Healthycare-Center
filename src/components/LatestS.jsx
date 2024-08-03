@@ -206,7 +206,7 @@ export default function LatestS() {
           <img
             src={DCirclB}
             alt="animation image"
-            className="absolute -right-10 md:right-14 lg:right-20 top-10 w-20 animate-moveSp z-[-1]"
+            className="absolute right-10 md:right-14 lg:right-20 top-10 w-20 animate-moveSp z-[-1]"
           />
           <img
             src={wavyB}

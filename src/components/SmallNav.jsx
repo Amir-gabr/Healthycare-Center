@@ -37,7 +37,7 @@ export default function SmallNav() {
           <div className="flex items-center justify-between py-2 px-4">
             <h2 className="text-[26px] font-bold">
               <Link to="/" className="flex items-center gap-2">
-                <img src={logo} alt="" className="w-36 md:w-40" />
+                <img src={logo} alt="" className="w-32 md:w-40" />
               </Link>
             </h2>
             <div
