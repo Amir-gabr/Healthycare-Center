@@ -19,6 +19,8 @@ import OurTeam from "./pages/OurTeam";
 import FAQs from "./pages/FAQs";
 import Booking from "./pages/Booking";
 import Error404 from "./pages/Error404";
+import ServicesDetails from "./pages/ServicesDetails";
+import BlogsDetails from "./pages/BlogsDetails";
 
 //scroll to top function
 const ScrollToTop = () => {
@@ -70,9 +72,9 @@ export default function App() {
             <Route path="/FAQ,s" element={<FAQs />} />
             <Route path="/Booking" element={<Booking />} />
             <Route path="/Blogs" element={<Blogs />} />
-            <Route path="/Blogs-Details" element={<Blogs />} />
+            <Route path="/Blogs-Details" element={<BlogsDetails />} />
             <Route path="/Services" element={<Services />} />
-            <Route path="/Services-Details" element={<Services />} />
+            <Route path="/Services-Details" element={<ServicesDetails />} />
             <Route path="/Contact" element={<Contact />} />
             <Route path="*" element={<Error404 />} />
           </Route>

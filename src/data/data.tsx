@@ -1,7 +1,7 @@
 //
 //
 //
-
+import React from "react";
 import { FaCalendarAlt } from "react-icons/fa";
 import { BsChatSquareQuoteFill } from "react-icons/bs";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa6";
@@ -20,7 +20,7 @@ import care from "../assets/image/1 (3).png";
 import syringe from "../assets/image/1 (4).png";
 import hospital from "../assets/image/1 (5).png";
 import ambulance from "../assets/image/1 (6).png";
-import clinic from "../assets/image/1 (7).png";
+// import clinic from "../assets/image/1 (7).png";
 //
 import pic1 from "../assets/image/pic1.jpg";
 import pic2 from "../assets/image/pic2.jpg";
@@ -28,6 +28,7 @@ import pic3 from "../assets/image/pic3.jpg";
 import pic4 from "../assets/image/pic4.jpg";
 import pic5 from "../assets/image/pic5.jpg";
 import pic6 from "../assets/image/pic6.jpg";
+
 //
 
 export const LatestNewsData = [
@@ -100,6 +101,105 @@ export const LatestNewsData = [
     time: (
       <p className="flex items-center gap-2">
         <FaCalendarAlt /> 26 July 2024
+      </p>
+    ),
+  },
+];
+export const BlogsData = [
+  {
+    id: 1,
+    mainImage: pic1,
+    docName: "Dr. John",
+    docImage: doc1,
+    dec: "In this hospital there are special surgeon for you ",
+    time: (
+      <p className="flex items-center gap-2">
+        <FaCalendarAlt /> 21 July 2024
+      </p>
+    ),
+  },
+  {
+    id: 2,
+    mainImage: pic2,
+    docName: "Dr. Michel",
+    docImage: doc2,
+    dec: "Can you get a diluvian or prescription online?",
+    time: (
+      <p className="flex items-center gap-2">
+        <FaCalendarAlt /> 22 July 2024
+      </p>
+    ),
+  },
+  {
+    id: 3,
+    mainImage: pic3,
+    docName: "Dr. Peter",
+    docImage: doc3,
+    dec: "Why should you take care of your health and your family?",
+    time: (
+      <p className="flex items-center gap-2">
+        <FaCalendarAlt /> 23 July 2024
+      </p>
+    ),
+  },
+  {
+    id: 4,
+    mainImage: pic4,
+    docName: "Dr. Kalian",
+    docImage: doc4,
+    dec: "Health will be a thing of the pest and here’s why",
+    time: (
+      <p className="flex items-center gap-2">
+        <FaCalendarAlt /> 24 July 2024
+      </p>
+    ),
+  },
+
+  {
+    id: 5,
+    mainImage: pic5,
+    docName: "Dr. Sonar ",
+    docImage: doc5,
+    dec: "Dental care for women is very important to us",
+    time: (
+      <p className="flex items-center gap-2">
+        <FaCalendarAlt /> 25 July 2024
+      </p>
+    ),
+  },
+  {
+    id: 6,
+    mainImage: pic6,
+    docName: "Dr. Mollika",
+    docImage: doc6,
+    dec: "Why is skin surgeon considered underrated?",
+    time: (
+      <p className="flex items-center gap-2">
+        <FaCalendarAlt /> 26 July 2024
+      </p>
+    ),
+  },
+  {
+    id: 7,
+    mainImage: pic2,
+    docName: "Dr. Michel",
+    docImage: doc2,
+    dec: "Can you get a diluvian or prescription online?",
+    time: (
+      <p className="flex items-center gap-2">
+        <FaCalendarAlt /> 22 July 2024
+      </p>
+    ),
+  },
+  {
+    id: 8,
+    mainImage: pic3,
+    docName: "Dr. Michel",
+    docImage: doc2,
+    dec: "Can you get a diluvian or prescription online?",
+    time: (
+      <p className="flex items-center gap-2">
+        <FaCalendarAlt /> 22 July 2024
       </p>
     ),
   },
@@ -193,12 +293,12 @@ export const ServicesData = [
     image: ambulance ,
     comment: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
-  {
-    id: 7,
-    title: "Diagnostics",
-    image: clinic ,
-    comment: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-  },
+  // {
+  //   id: 7,
+  //   title: "Diagnostics",
+  //   image: clinic ,
+  //   comment: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+  // },
 ];
 export const ServiceDetailsData = [
   {

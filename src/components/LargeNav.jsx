@@ -288,7 +288,7 @@ export default function LargeNav() {
                       before:bottom-0 before:transition-[width] before:duration-300`}
                     id="tooltipLink"
                   >
-                    <NavLink to="Blogs Details">Blogs-Details</NavLink>
+                    <NavLink to="Blogs-Details">Blogs-Details</NavLink>
                   </li>
                 </ul>
               </li>
