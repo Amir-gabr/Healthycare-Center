@@ -34,7 +34,7 @@ const AppointmentS = () => {
           <AnimatedImage
             src={locations}
             alt="locations"
-            className="absolute w-16 bottom-44 left-20 animate-moveY1"
+            className="absolute w-16 left-20  bottom-44 animate-moveY1"
           />
           <AnimatedImage
             src={comment}

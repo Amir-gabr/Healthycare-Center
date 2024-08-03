@@ -132,7 +132,7 @@ const AnimationImages = memo(function AnimationImages() {
     <img
       src={boxB}
       alt=""
-      className="absolute z-0 top-20 -right-6 md:top-44 md:right-32 animate-moveSp"
+      className="absolute z-0 top-20 right-0 md:top-44 md:right-32 animate-moveSp"
     />
     <img
       src={boxB}
