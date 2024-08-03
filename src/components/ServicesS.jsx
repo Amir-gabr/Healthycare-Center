@@ -18,11 +18,11 @@ export default function ServicesS() {
 
   return (
     <>
-      <section className="relative h-auto mb-10 ">
+      <section className="relative h-auto mb-10 py-4">
         {/* Latest News Content */}
         <div className=" mx-auto grid grid-cols-1 lg:grid-cols-2 py-0 md:py-10 ">
           {/* Title and Description */}
-          <div className="flex flex-col justify-left lg:justify-center gap-4 md:gap-2 px-20">
+          <div className="flex flex-col justify-left lg:justify-center gap-4 md:gap-2 px-4 md:px-10 lg:px-20">
             <h5 className="ObgTitle mb-6 w-fit px-4  text-orange-500 font-bold text-[22px]">
               Services
             </h5>
