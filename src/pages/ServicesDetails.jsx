@@ -5,7 +5,7 @@ import { TfiHandPointRight } from "react-icons/tfi";
 import Accordion from "../components/Accordion";
 import BgBreadcrumb from "../components/BgBreadcrumb";
 import StickyServ from "../components/StickyServ";
-import pic from "../assets/image/pic7.jpg";
+import pic from "../assets/image/posterServiceDetails.jpg";
 
 export default function ServicesDetails() {
   return (

@@ -176,7 +176,7 @@ export default function LargeNav() {
                 onMouseLeave={() => setTooltipStatus(0)}
               >
                 <NavLink
-                  t0="Services"
+                  to="Services"
                   className={({ isActive }) => {
                     return `
                     py-1 hover:text-orange-500 decoration-transparent duration-300 
