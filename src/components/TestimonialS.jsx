@@ -140,22 +140,22 @@ export default function TestimonialS() {
           <img
             src={DotsCB}
             alt="animation image"
-            className="absolute right-10 top-36 md:right-40 md:top-36 w-24 z-[-1]"
+            className="absolute right-10 top-36 md:right-40 md:top-36 w-16 md:w-24 z-[-1]"
           />
           <img
             src={circilO}
             alt="animation image"
-            className="absolute right-2 md:right-14 lg:right-20 bottom-6 w-20 z-[-1]"
+            className="absolute right-4 md:right-14 lg:right-20 bottom-6 w-16 md:w-24 z-[-1]"
           />
           <img
             src={boxB}
             alt="animation image"
-            className="absolute -left-4  md:left-10 bottom-40 lg:bottom-10 w-24 animate-moveY1 z-[-1]"
+            className="absolute left-4  md:left-10 bottom-40 lg:bottom-10 w-16 md:w-24 animate-moveY1 z-[-1]"
           />
           <img
             src={plusO}
             alt="animation image"
-            className="absolute left-10 top-20 md:left-60 md:top-40 w-20 animate-moveY1 z-[-1]"
+            className="absolute left-10 top-20 md:left-60 md:top-40 w-16 md:w-24 animate-moveY1 z-[-1]"
           />
         </div>
       </section>

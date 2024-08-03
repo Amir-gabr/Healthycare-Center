@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import  { memo } from "react";
 import mobile from "../assets/images/mobile.png";
 import women from "../assets/images/women.png";
 import sittings from "../assets/images/sittings.png";

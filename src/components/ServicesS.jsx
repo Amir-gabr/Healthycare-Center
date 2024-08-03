@@ -22,18 +22,21 @@ export default function ServicesS() {
         {/* Latest News Content */}
         <div className=" mx-auto grid grid-cols-1 lg:grid-cols-2 py-0 md:py-10 ">
           {/* Title and Description */}
-          <div className="flex flex-col justify-left lg:justify-center gap-4 md:gap-2 px-4 md:px-10 lg:px-20">
-            <h5 className="ObgTitle mb-6 w-fit px-4  text-orange-500 font-bold text-[22px]">
+          <div className="flex flex-col text-center md:text-left lg:justify-center gap-4 md:gap-2 px-4 md:px-10 lg:px-20">
+            <h5 className="ObgTitle mb-6 w-fit px-4 mx-auto md:mx-0 text-orange-500 font-bold text-[22px]">
               Services
             </h5>
-            <h3 className=" w-4/5 md:w-3/5 lg:w-4/5 lg:text-left text-light lg:text-darkText font-bold text-2xl md:text-[40px] leading-[42px]">
+            <h3 className=" w-4/5 md:w-3/5 lg:w-4/5 mx-auto md:mx-0 text-light lg:text-darkText font-bold text-2xl md:text-[40px] leading-[42px]">
               We Cover A Big Variety Of Medical Services
             </h3>
             <p className="text-lg  font-semibold text-light lg:text-darkText">
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout.
             </p>
-            <Link to="/about" className="btn w-fit py-3 px-8 mt-6">
+            <Link
+              to="/about"
+              className="btn w-fit py-3 px-8 mt-6 mx-auto md:mx-0"
+            >
               All Service
             </Link>
           </div>
@@ -114,12 +117,12 @@ export default function ServicesS() {
           <img
             src={DotsCB}
             alt="animation image"
-            className="absolute left-80 top-10 w-20 animate-moveY1 z-[-1]"
+            className="absolute left-80 top-10 w-16 md:w-20 animate-moveY1 z-[-1]"
           />
           <img
             src={boxB}
             alt="animation image"
-            className="absolute left-10 bottom-10 w-20 animate-moveY1 z-[-1]"
+            className="absolute left-10 bottom-10 w-16 md:w-20 animate-moveY1 z-[-1]"
           />
         </div>
       </section>

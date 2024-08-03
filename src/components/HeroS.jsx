@@ -50,22 +50,22 @@ export default function Hero() {
               <img
                 src={boxB}
                 alt="animation image"
-                className="absolute right-2 md:right-20 lg:-right-40 -top-10 w-28 animate-moveY2 z-[-1]"
+                className="absolute right-2 md:right-20 lg:-right-40 -top-10 w-16 md:w-24 animate-moveY2 z-[-1]"
               />
               <img
                 src={send}
                 alt="animation image"
-                className="absolute left-6 md:-left-6 bottom-10 w-20 animate-moveY1 z-[-1]"
+                className="absolute left-6 md:-left-6 bottom-10 w-14 md:w-20 animate-moveY1 z-[-1]"
               />
               <img
                 src={circleB}
                 alt="animation image"
-                className="absolute left-10 md:left-28 lg:left-40 -top-16 md:-top-16 lg:top-4 w-14 z-[-1]"
+                className="absolute left-10 md:left-28 lg:left-40 -top-16 md:-top-16 lg:top-4 w-14 md:w-16 z-[-1]"
               />
               <img
                 src={plusO}
                 alt="animation image"
-                className="absolute md:right-32 right-0 md:-bottom-20 bottom-0 w-24 z-[-1]"
+                className="absolute md:right-32 right-4 md:-bottom-20 bottom-0 w-16 md:w-24 z-[-1]"
               />
             </div>
           </article>

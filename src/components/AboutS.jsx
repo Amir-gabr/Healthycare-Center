@@ -135,22 +135,22 @@ const AnimationImages = memo(function AnimationImages() {
     <img
       src={DotBoxO}
       alt=""
-      className="absolute z-0 bottom-20 right-10 md:bottom-32 md:right-10 animate-moveX"
+      className="absolute z-0 w-16 md:w-24 bottom-20 right-10 md:bottom-32 md:right-10 animate-moveX"
     />
     <img
       src={emptyC}
       alt=""
-      className="absolute z-0 bottom-30 right-96 animate-moveY1"
+      className="absolute z-0 w-16 md:w-24 bottom-30 right-96 animate-moveY1"
     />
     <img
       src={boxB}
       alt=""
-      className="absolute z-0 top-20 right-0 md:top-44 md:right-32 animate-moveSp"
+      className="absolute z-0 w-16 md:w-24 top-20 right-4 md:top-44 md:right-32 animate-moveSp"
     />
     <img
       src={boxB}
       alt=""
-      className="absolute z-0 top-72 lg:top-60 left-0 lg:left-4 animate-moveY1"
+      className="absolute z-0 w-16 md:w-24 top-72 lg:top-60 left-4 lg:left-8 animate-moveY1"
     />
   </div>;
 });

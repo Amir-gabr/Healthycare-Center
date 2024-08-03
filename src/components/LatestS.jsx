@@ -196,22 +196,22 @@ export default function LatestS() {
           <img
             src={send}
             alt="animation image"
-            className="absolute left-20 top-32 w-20 animate-moveY1 z-[-1]"
+            className="absolute left-20 top-32 w-14 md:w-20 animate-moveY1 z-[-1]"
           />
           <img
             src={DotBoxO}
             alt="animation image"
-            className="absolute left-4 md:left-6 lg:left-10 bottom-10 lg:bottom-2 w-24 animate-moveY1 z-[-1]"
+            className="absolute left-4 md:left-6 lg:left-10 bottom-10 lg:bottom-2 w-16 md:w-24 animate-moveY1 z-[-1]"
           />
           <img
             src={DCirclB}
             alt="animation image"
-            className="absolute right-10 md:right-14 lg:right-20 top-10 w-20 animate-moveSp z-[-1]"
+            className="absolute right-10 md:right-14 lg:right-20 top-10 w-14 md:w-20 animate-moveSp z-[-1]"
           />
           <img
             src={wavyB}
             alt="animation image"
-            className="absolute right-2 md:right-14 lg:right-20 bottom-20 md:bottom-5 w-28 animate-moveX z-[-1]"
+            className="absolute right-4 md:right-14 lg:right-20 bottom-20 md:bottom-5 w-16 md:w-24 animate-moveX z-[-1]"
           />
         </div>
       </section>

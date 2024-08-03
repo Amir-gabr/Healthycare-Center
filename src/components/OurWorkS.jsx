@@ -93,12 +93,12 @@ export default function OurWorkS() {
           <img
             src={send}
             alt="animation image"
-            className="absolute left-20 top-20 w-20 animate-moveY1 z-[-1]"
+            className="absolute left-20 top-20 w-14 md:w-20 animate-moveY1 z-[-1]"
           />
           <img
             src={DotBoxO}
             alt="animation image"
-            className="absolute right-2 md:right-20 bottom-80 md:bottom-56 w-24 animate-moveY1 z-[-1]"
+            className="absolute right-2 md:right-20 bottom-80 md:bottom-56 w-16 md:w-24 animate-moveY1 z-[-1]"
           />
         </div>
       </section>

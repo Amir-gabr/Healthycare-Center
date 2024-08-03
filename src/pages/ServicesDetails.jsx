@@ -12,7 +12,7 @@ export default function ServicesDetails() {
     <>
       <BgBreadcrumb />
       <div className="max-w-screen-xl flex flex-col lg:flex-row gap-5  mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <div className="w-[100%] lg:w-[70%] min-h-screen bg-light p-10 shadow-xl rounded-xl space-y-6">
+        <div className="w-[100%] lg:w-[70%] min-h-screen bg-light p-2 md:p-4 lg:p-10 shadow-xl rounded-xl space-y-6">
           <div className="space-y-4">
             <div className="w-full ">
               <img
@@ -21,11 +21,11 @@ export default function ServicesDetails() {
                 className="w-full h-full object-cover rounded-xl"
               />
             </div>
-            <h5 className="text-4xl text-darkText font-bold ">
+            <h5 className="text-2xl md:text-4xl text-darkText font-bold">
               Why Medical Had Been So Popular Till
             </h5>
-            <div className="flex flex-col md:flex-row items-center justify-between">
-              <div className="">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+              <div className="w-[100%] md:w-[48%] flex flex-col justify-between gap-1">
                 <div className="group flex items-center gap-4">
                   <p className="border-[1px] rounded-md p-2 bg-primary group-hover:bg-orange-600 duration-300">
                     <TfiHandPointRight className="text-light text-2xl " />
@@ -59,18 +59,18 @@ export default function ServicesDetails() {
                   </p>
                 </div>
               </div>
-              <div className="w-[46%] flex flex-col justify-between gap-10">
+              <div className="w-[100%] md:w-[48%] flex flex-col justify-between gap-10">
                 <div className="">
                   <div className=" flex justify-between items-center">
                     <h6 className="text-xl text-darkText font-bold">
                       Advanced Technology
                     </h6>
-                    <p className="text-primary text-lg font-semibold"> 25%</p>
+                    <p className="text-primary text-lg font-semibold"> 75%</p>
                   </div>
                   <div className="w-full bg-slate-200 ">
                     <div
                       className="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100"
-                      style={{ width: "25%" }}
+                      style={{ width: "75%" }}
                     ></div>
                   </div>
                 </div>
@@ -79,12 +79,12 @@ export default function ServicesDetails() {
                     <h6 className="text-xl text-darkText font-bold">
                       6 years Experience
                     </h6>
-                    <p className="text-primary text-lg font-semibold"> 25%</p>
+                    <p className="text-primary text-lg font-semibold"> 62%</p>
                   </div>
                   <div className="w-full bg-slate-200">
                     <div
                       className="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100"
-                      style={{ width: "25%" }}
+                      style={{ width: "62%" }}
                     ></div>
                   </div>
                 </div>
@@ -93,12 +93,12 @@ export default function ServicesDetails() {
                     <h6 className="text-xl text-darkText font-bold">
                       Certified Engineers
                     </h6>
-                    <p className="text-primary text-lg font-semibold"> 25%</p>
+                    <p className="text-primary text-lg font-semibold"> 80%</p>
                   </div>
                   <div className="w-full bg-slate-200">
                     <div
                       className="bg-primary p-0.5 text-center text-xs font-medium leading-none text-primary-100"
-                      style={{ width: "25%" }}
+                      style={{ width: "80%" }}
                     ></div>
                   </div>
                 </div>
@@ -121,7 +121,7 @@ export default function ServicesDetails() {
         </div>
         <div className=" w-[100%] lg:w-[30%] ms-auto">
           <div className="w-full sticky top-28 left-[100%] z-[10] duration-300 transition">
-            <StickyServ className="" />
+            <StickyServ />
           </div>
         </div>
       </div>
