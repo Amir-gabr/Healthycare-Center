@@ -149,22 +149,22 @@ const AnimationImages = () => (
     <img
       src={wavyB}
       alt="animation image"
-      className="absolute left-4 md:left-8 lg:left-14 top-16 w-16 md:w-24 object-cover animate-moveX"
+      className="absolute left-4 md:left-8 lg:left-14 top-16 w-16 md:w-24 object-cover md:animate-moveX"
     />
     <img
       src={wavyB}
       alt="animation image"
-      className="absolute right-4 md:right-14 lg:right-20 bottom-10 lg:bottom-20 w-16 md:w-24 object-cover animate-moveX"
+      className="absolute right-4 md:right-14 lg:right-20 bottom-10 lg:bottom-20 w-16 md:w-24 object-cover md:animate-moveX"
     />
     <img
       src={plusB}
       alt="animation image"
-      className="absolute right-4 md:right-14 lg:right-20 top-40 w-14 md:w-20 object-cover animate-moveSp z-[-1]"
+      className="absolute right-4 md:right-14 lg:right-20 top-40 w-14 md:w-20 object-cover md:animate-moveSp z-[-1]"
     />
     <img
       src={DotsCB}
       alt="animation image"
-      className="absolute left-10 bottom-36 w-14 md:w-20 object-cover z-[-1] animate-moveY1"
+      className="absolute left-10 bottom-36 w-14 md:w-20 object-cover z-[-1] md:animate-moveY1"
     />
   </div>
 );

@@ -2,13 +2,13 @@
 //
 //
 
-import About from "../components/AboutS";
-import Hero from "../components/HeroS";
-import OurWork from "../components/OurWorkS";
-import ServicesS from "../components/ServicesS";
-import TestimonialS from "../components/TestimonialS";
-import LatestS from "../components/LatestS";
-import AppointmentS from "../components/AppointmentS";
+import About from "../components/about/AboutS";
+import Hero from "../components/home/HeroS";
+import OurWork from "../components/home/OurWorkS";
+import ServicesS from "../components/services/ServicesS";
+import TestimonialS from "../components/home/TestimonialS";
+import LatestS from "../components/about/LatestS";
+import AppointmentS from "../components/booking/AppointmentS";
 
 
 export default function Home() {

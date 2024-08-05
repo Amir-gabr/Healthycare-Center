@@ -1,24 +1,21 @@
 //
 //
 //
-
-//
-//
 // animation images
-import plusO from "../assets/imagesAni/plusO.png";
-import boxB from "../assets/imagesAni/boxB.png";
-import circilO from "../assets/imagesAni/circilO.png";
-import DotsCB from "../assets/imagesAni/DotsCB.png";
+import plusO from "../../assets/imagesAni/plusO.png";
+import boxB from "../../assets/imagesAni/boxB.png";
+import circilO from "../../assets/imagesAni/circilO.png";
+import DotsCB from "../../assets/imagesAni/DotsCB.png";
 //
-import doc1 from "../assets/image/doc1.jpeg";
-import doc2 from "../assets/image/doc2.jpeg";
-import doc3 from "../assets/image/doc3.jpeg";
-import doc4 from "../assets/image/doc4.jpeg";
-import doc5 from "../assets/image/doc5.jpeg";
-import doc6 from "../assets/image/doc6.jpeg";
+import doc1 from "../../assets/image/doc1.jpeg";
+import doc2 from "../../assets/image/doc2.jpeg";
+import doc3 from "../../assets/image/doc3.jpeg";
+import doc4 from "../../assets/image/doc4.jpeg";
+import doc5 from "../../assets/image/doc5.jpeg";
+import doc6 from "../../assets/image/doc6.jpeg";
 
 //icons
-import { TestimonialData } from "../data/data";
+import { TestimonialData } from "../../data/data";
 import { FaCircleArrowLeft, FaCircleArrowRight } from "react-icons/fa6";
 //other
 import { useRef } from "react";
@@ -150,12 +147,12 @@ export default function TestimonialS() {
           <img
             src={boxB}
             alt="animation image"
-            className="absolute left-4  md:left-10 bottom-40 lg:bottom-10 w-16 md:w-24 animate-moveY1 z-[-1]"
+            className="absolute left-4  md:left-10 bottom-40 lg:bottom-10 w-16 md:w-24 md:animate-moveY1 z-[-1]"
           />
           <img
             src={plusO}
             alt="animation image"
-            className="absolute left-10 top-20 md:left-60 md:top-40 w-16 md:w-24 animate-moveY1 z-[-1]"
+            className="absolute left-10 top-20 md:left-60 md:top-40 w-16 md:w-24 md:animate-moveY1 z-[-1]"
           />
         </div>
       </section>

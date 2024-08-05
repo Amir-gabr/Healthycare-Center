@@ -15,8 +15,8 @@ import {
 } from "react-icons/fa6";
 import { PiListBold } from "react-icons/pi";
 // images
-import logo from "../assets/images/logo.png";
-import navLogo from "../assets/images/navLogo.png";
+import logo from "../../assets/images/logo.png";
+import navLogo from "../../assets/images/navLogo.png";
 import { CollapseNav } from "./CollapseNav";
 
 export default function SmallNav() {

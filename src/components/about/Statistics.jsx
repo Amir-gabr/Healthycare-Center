@@ -1,7 +1,7 @@
 //
 //
 //
-import { StatisticsData } from "../data/data";
+import { StatisticsData } from "../../data/data";
 export default function Statistics() {
   return (
     <>

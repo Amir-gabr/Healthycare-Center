@@ -85,7 +85,7 @@ export default function Contact() {
             />
             <div className="absolute bg-primary bg-opacity-80 top-0 left-0 w-full h-full"></div>
             <div className="relative z-10 text-white h-full">
-              <h5 className="text-4xl font-bold">
+              <h5 className="text-2xl md:text-4xl font-bold">
                 Contact Us For Any Information
               </h5>
               {/*  */}
@@ -95,7 +95,7 @@ export default function Contact() {
                     <FaMapLocationDot className="text-3xl" />
                     Location
                   </div>
-                  <p className="text-xl">
+                  <p className="text-base md:text-xl">
                     Contact Us For Any Informations Location 2005 Stokes Isle
                     Apt. 896, Venaville 10010, USA
                   </p>
@@ -104,29 +104,29 @@ export default function Contact() {
                   <div className="flex items-center gap-4 text-xl font-semibold border-b-2 py-2">
                     <MdContactPhone className="text-3xl" /> Contact Us On
                   </div>
-                  <p className="text-xl">example@gmail.com</p>
-                  <p className="text-xl">+20120034509</p>
+                  <p className="text-base md:text-xl">example@gmail.com</p>
+                  <p className="text-base md:text-xl">+20120034509</p>
                 </div>
                 <div className="">
                   <div className="flex items-center gap-4 text-xl font-semibold border-b-2 py-2">
-                    <TbWorld className="text-3xl" />
+                    <TbWorld className="text-xl md:text-3xl" />
                     Follow Us On
                   </div>
                   {/* SOCIAL */}
                   <div className="social flex items-center gap-3 mt-2">
                     <div className="bg-primary rounded-lg border overflow-hidden">
-                      <div className="p-2 duration-300 hover:bg-orange-600  ">
-                        <FaFacebookF className="text-xl  text-light" />
+                      <div className="p-2 duration-300 hover:bg-orange-600">
+                        <FaFacebookF className="text-base md:text-xl text-light" />
                       </div>
                     </div>
                     <div className="bg-primary rounded-lg border overflow-hidden">
-                      <div className="p-2 duration-300 hover:bg-orange-600  ">
-                        <FaTwitter className="text-xl text-light" />
+                      <div className="p-2 duration-300 hover:bg-orange-600">
+                        <FaTwitter className="text-base md:text-xl text-light" />
                       </div>
                     </div>
                     <div className="bg-primary rounded-lg border overflow-hidden">
-                      <div className="p-2 duration-300 hover:bg-orange-600  ">
-                        <FaInstagram className="text-xl text-light" />
+                      <div className="p-2 duration-300 hover:bg-orange-600">
+                        <FaInstagram className="text-base md:text-xl text-light" />
                       </div>
                     </div>
                   </div>

@@ -5,17 +5,16 @@
 //
 //
 // animation images
-import boxB from "../assets/imagesAni/boxB.png";
-import DotsCB from "../assets/imagesAni/DotsCB.png";
+import boxB from "../../assets/imagesAni/boxB.png";
+import DotsCB from "../../assets/imagesAni/DotsCB.png";
 //
 import { Link } from "react-router-dom";
-import { ServicesData } from "../data/data";
+import { ServicesData } from "../../data/data";
 import { IoIosArrowForward } from "react-icons/io";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 export default function ServicesS() {
-
   return (
     <>
       <section className="relative h-auto mb-10 py-4">
@@ -117,12 +116,12 @@ export default function ServicesS() {
           <img
             src={DotsCB}
             alt="animation image"
-            className="absolute left-80 top-10 w-16 md:w-20 animate-moveY1 z-[-1]"
+            className="absolute left-80 top-10 w-16 md:w-20 md:animate-moveY1 z-[-1]"
           />
           <img
             src={boxB}
             alt="animation image"
-            className="absolute left-10 bottom-10 w-16 md:w-20 animate-moveY1 z-[-1]"
+            className="absolute left-10 bottom-10 w-16 md:w-20 md:animate-moveY1 z-[-1]"
           />
         </div>
       </section>

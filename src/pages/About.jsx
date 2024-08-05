@@ -3,10 +3,10 @@
 //
 
 import BgBreadcrumb from "../components/BgBreadcrumb";
-import AboutS from "../components/AboutS";
-import TestimonialS from "../components/TestimonialS";
-import LatestS from "../components/LatestS";
-import Statistics from "../components/Statistics";
+import AboutS from "../components/about/AboutS";
+import TestimonialS from "../components/home/TestimonialS";
+import LatestS from "../components/about/LatestS";
+import Statistics from "../components/about/Statistics";
 
 export default function About() {
   return (

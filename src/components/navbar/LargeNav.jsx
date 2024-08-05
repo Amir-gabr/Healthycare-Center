@@ -11,8 +11,8 @@ import { IoIosArrowForward } from "react-icons/io";
 import { FaPlus } from "react-icons/fa";
 import { FaXmark } from "react-icons/fa6";
 //images
-import logo from "../assets/images/logo.png";
-import ServicesS from './ServicesS';
+import logo from "../../assets/images/logo.png";
+
 
 export default function LargeNav() {
   const [search, setSearch] = useState(false);

@@ -3,13 +3,13 @@
 //
 import { FaCalendarAlt } from "react-icons/fa";
 //
-import pic1 from "../assets/image/pic1.jpg";
-import pic2 from "../assets/image/pic2.jpg";
-import pic3 from "../assets/image/pic3.jpg";
-import pic4 from "../assets/image/pic4.jpg";
-import pic5 from "../assets/image/pic5.jpg";
-import pic6 from "../assets/image/pic6.jpg";
-import underTitleB from "../assets/images/underTitleB.png";
+import pic1 from "../../assets/image/pic1.jpg";
+import pic2 from "../../assets/image/pic2.jpg";
+import pic3 from "../../assets/image/pic3.jpg";
+import pic4 from "../../assets/image/pic4.jpg";
+import pic5 from "../../assets/image/pic5.jpg";
+import pic6 from "../../assets/image/pic6.jpg";
+import underTitleB from "../../assets/images/underTitleB.png";
 
 export default function StickyBlog() {
   return (

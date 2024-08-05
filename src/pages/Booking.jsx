@@ -2,7 +2,7 @@
 //
 //
 
-import AppointmentS from "../components/AppointmentS";
+import AppointmentS from "../components/booking/AppointmentS";
 import BgBreadcrumb from "../components/BgBreadcrumb";
 
 export default function Booking() {

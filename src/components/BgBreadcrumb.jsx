@@ -54,12 +54,12 @@ const AnimatedImages = memo(() => (
     <img
       src={DBoxB}
       alt="animation"
-      className="absolute z-0 w-16 md:w-24 top-[20%] lg:top-[16%] left-4 lg:left-20 animate-moveSp"
+      className="absolute z-0 w-16 md:w-24 top-[20%] lg:top-[16%] left-4 lg:left-20 md:animate-moveSp"
     />
     <img
       src={boxB}
       alt="animation"
-      className="absolute z-0 w-16 md:w-24 top-[60%] lg:top-[45%] right-4 lg:right-10 animate-moveY1"
+      className="absolute z-0 w-16 md:w-24 top-[60%] lg:top-[45%] right-4 lg:right-10 md:animate-moveY1"
     />
   </div>
 ));

@@ -4,14 +4,14 @@
 
 import { Link } from "react-router-dom";
 // images
-import heroBg from "../assets/images/bg1.jpg";
-import wavy2 from "../assets/images/wavy2.png";
-import heroImg from "../assets/images/Hero.png";
+import heroBg from "../../assets/images/bg1.jpg";
+import wavy2 from "../../assets/images/wavy2.png";
+import heroImg from "../../assets/images/Hero.png";
 // animation images
-import plusO from "../assets/imagesAni/plusO.png";
-import circleB from "../assets/imagesAni/circleB.png";
-import send from "../assets/imagesAni/send.png";
-import boxB from "../assets/imagesAni/boxB.png";
+import plusO from "../../assets/imagesAni/plusO.png";
+import circleB from "../../assets/imagesAni/circleB.png";
+import send from "../../assets/imagesAni/send.png";
+import boxB from "../../assets/imagesAni/boxB.png";
 
 export default function Hero() {
   return (
@@ -36,7 +36,7 @@ export default function Hero() {
             <p className="BbgTitle text-center w-fit px-4 text-primary font-extrabold  md:text-xl">
               We Provide All Health Care Solution
             </p>
-            <h4 className="text-darkText text-[25px] md:text-[35px] lg:text-[45px] font-extrabold">
+            <h4 className="text-darkText text-[20px] md:text-[25px] lg:text-[35px] font-extrabold">
               Protect Your Health And
             </h4>
             <h2 className="text-darkText text-center md:text-start text-[40px] md:text-[50px] font-extrabold leading-[54px]">
@@ -50,12 +50,12 @@ export default function Hero() {
               <img
                 src={boxB}
                 alt="animation image"
-                className="absolute right-2 md:right-20 lg:-right-40 -top-10 w-16 md:w-24 animate-moveY2 z-[-1]"
+                className="absolute right-2 md:right-20 lg:-right-40 -top-10 w-16 md:w-24 md:animate-moveY2 z-[-1]"
               />
               <img
                 src={send}
                 alt="animation image"
-                className="absolute left-6 md:-left-6 bottom-10 w-14 md:w-20 animate-moveY1 z-[-1]"
+                className="absolute left-6 md:-left-6 bottom-10 w-14 md:w-20 md:animate-moveY1 z-[-1]"
               />
               <img
                 src={circleB}
@@ -70,7 +70,7 @@ export default function Hero() {
             </div>
           </article>
           <article className="mx-auto">
-            <img src={heroImg} alt="" className="w-[400px] animate-moveY1" />
+            <img src={heroImg} alt="" className="w-[300px] md:animate-moveY1" />
           </article>
         </div>
       </section>

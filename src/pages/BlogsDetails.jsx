@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa";
 //
 import BgBreadcrumb from "../components/BgBreadcrumb";
-import StickyBlog from "../components/StickyBlog";
+import StickyBlog from "../components/blogs/StickyBlog";
 //
 import poster from "../assets/image/posterBlogsDetails.jpg";
 import doctor1 from "../assets/image/doc1.jpeg";

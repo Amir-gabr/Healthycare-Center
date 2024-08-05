@@ -1,15 +1,15 @@
-import React, { memo } from "react";
+import { memo } from "react";
 import { Link } from "react-router-dom";
-import about1 from "../assets/images/about1.jpg";
-import about2 from "../assets/images/about2.jpg";
-import about3 from "../assets/images/about3.jpg";
-import syringe from "../assets/image/1 (4).png";
-import hospital from "../assets/image/1 (5).png";
-import clinic from "../assets/image/1 (7).png";
-import ambulance from "../assets/image/1 (6).png";
-import boxB from "../assets/imagesAni/boxB.png";
-import DotBoxO from "../assets/imagesAni/DotBoxO.png";
-import emptyC from "../assets/imagesAni/emptyC.png";
+import about1 from "../../assets/images/about1.jpg";
+import about2 from "../../assets/images/about2.jpg";
+import about3 from "../../assets/images/about3.jpg";
+import syringe from "../../assets/image/1 (4).png";
+import hospital from "../../assets/image/1 (5).png";
+import clinic from "../../assets/image/1 (7).png";
+import ambulance from "../../assets/image/1 (6).png";
+import boxB from "../../assets/imagesAni/boxB.png";
+import DotBoxO from "../../assets/imagesAni/DotBoxO.png";
+import emptyC from "../../assets/imagesAni/emptyC.png";
 
 const AboutS = () => {
   return (
@@ -135,22 +135,22 @@ const AnimationImages = memo(function AnimationImages() {
     <img
       src={DotBoxO}
       alt=""
-      className="absolute z-0 w-16 md:w-24 bottom-20 right-10 md:bottom-32 md:right-10 animate-moveX"
+      className="absolute z-0 w-16 md:w-24 bottom-20 right-10 md:bottom-32 md:right-10 md:animate-moveX"
     />
     <img
       src={emptyC}
       alt=""
-      className="absolute z-0 w-16 md:w-24 bottom-30 right-96 animate-moveY1"
+      className="absolute z-0 w-16 md:w-24 bottom-30 right-96 md:animate-moveY1"
     />
     <img
       src={boxB}
       alt=""
-      className="absolute z-0 w-16 md:w-24 top-20 right-4 md:top-44 md:right-32 animate-moveSp"
+      className="absolute z-0 w-16 md:w-24 top-20 right-4 md:top-44 md:right-32 md:animate-moveSp"
     />
     <img
       src={boxB}
       alt=""
-      className="absolute z-0 w-16 md:w-24 top-72 lg:top-60 left-4 lg:left-8 animate-moveY1"
+      className="absolute z-0 w-16 md:w-24 top-72 lg:top-60 left-4 lg:left-8 md:animate-moveY1"
     />
   </div>;
 });

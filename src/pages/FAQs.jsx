@@ -4,7 +4,7 @@
 
 import Accordion from "../components/Accordion";
 import BgBreadcrumb from "../components/BgBreadcrumb";
-import LatestS from "../components/LatestS";
+import LatestS from "../components/about/LatestS";
 
 export default function FAQs() {
   return (
