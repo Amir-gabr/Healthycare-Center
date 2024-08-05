@@ -109,7 +109,7 @@ export default function Contact() {
                 </div>
                 <div className="">
                   <div className="flex items-center gap-4 text-xl font-semibold border-b-2 py-2">
-                    <TbWorld className="text-xl md:text-3xl" />
+                    <TbWorld className="text-3xl" />
                     Follow Us On
                   </div>
                   {/* SOCIAL */}

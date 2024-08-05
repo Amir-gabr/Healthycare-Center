@@ -2,7 +2,7 @@
 //
 //
 
-import Accordion from "../components/Accordion";
+import Accordion from "../components/services/Accordion";
 import BgBreadcrumb from "../components/BgBreadcrumb";
 import LatestS from "../components/about/LatestS";
 

@@ -4,7 +4,7 @@
 
 import { TECollapse } from "tw-elements-react";
 
-import { FAQsData } from "../data/data";
+import { FAQsData } from "../../data/data";
 import { useState } from "react";
 export default function Accordion() {
   const [activeElement, setActiveElement] = useState("");
