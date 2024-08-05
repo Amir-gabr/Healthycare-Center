@@ -70,7 +70,7 @@ export default function Hero() {
             </div>
           </article>
           <article className="mx-auto">
-            <img src={heroImg} alt="" className="w-[300px] md:animate-moveY1" />
+            <img src={heroImg} alt="" className="w-[340px] md:w-[400px] md:animate-moveY1" />
           </article>
         </div>
       </section>
