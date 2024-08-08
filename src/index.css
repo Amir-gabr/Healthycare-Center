@@ -15,7 +15,7 @@ html {
 }
 @layer components {
   .form-control {
-    @apply outline-none w-full focus:outline-orange-200  border border-orange-200 border-opacity-50 px-3 py-1 rounded text-lg font-normal text-gray-900;
+    @apply outline-none w-full focus:border-primary border border-blue-200 border-opacity-50 px-3 py-1 rounded text-lg font-normal text-gray-900;
   }
 }
 @layer components {

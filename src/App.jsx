@@ -21,6 +21,8 @@ import Booking from "./pages/Booking";
 import Error404 from "./pages/Error404";
 import ServicesDetails from "./pages/ServicesDetails";
 import BlogsDetails from "./pages/BlogsDetails";
+import SignIn from "./pages/SignIn";
+import SignUp from "./pages/SignUp";
 
 //scroll to top function
 const ScrollToTop = () => {
@@ -76,6 +78,8 @@ export default function App() {
             <Route path="/Services" element={<Services />} />
             <Route path="/Services-Details" element={<ServicesDetails />} />
             <Route path="/Contact" element={<Contact />} />
+            <Route path="/Sign-In" element={<SignIn />} />
+            <Route path="/Sign-Up" element={<SignUp />} />
             <Route path="*" element={<Error404 />} />
           </Route>
         </Routes>
